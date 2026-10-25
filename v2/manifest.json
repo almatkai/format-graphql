@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.format-graphql",
+  "slug": "format-graphql",
+  "name": "Format GraphQL",
+  "version": "0.1.0",
+  "description": "Formats a GraphQL document. Original extension by tngranados; contributor xmok.",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.format-graphql"
+  ],
+  "icon": "/extensions/icons/format-graphql.png",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Format GraphQL",
+      "description": "Formats a GraphQL document",
+      "runtime": "rust",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Host registration, rebuild, installation and real UI/clipboard QA have not run."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Host registration, rebuild, installation and real UI/clipboard QA have not run."
+    }
+  ]
+}

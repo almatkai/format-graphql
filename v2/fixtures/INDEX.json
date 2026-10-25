@@ -1,0 +1,2480 @@
+{
+  "ownSource": "b1edb8f7837a148fef50fdf79fcfe917a7aed952",
+  "beta": "fd300e276356587726566026f072563eb9c34cb1",
+  "integrationBase": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "prettierCommit": "56ed71d1c99bdf5253d03df1fa2d2bd0693d8214",
+  "records": [
+    {
+      "path": "assets/command-icon.png",
+      "size": 224850,
+      "sha256": "98addbe45d1d95735dd96b50284d0e6ab6c6d67736ab81f7446fc32f4301d9e4",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:extensions/format-graphql/assets/command-icon.png",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/format-graphql/assets/command-icon.png"
+    },
+    {
+      "path": "fixtures/beta/LICENSE",
+      "size": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:LICENSE",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/docs/NATIVE_V2_FORMAT.md",
+      "size": 2593,
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:docs/NATIVE_V2_FORMAT.md",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/package.json",
+      "size": 2909,
+      "sha256": "a9e41304960cd456d9f0b223110cd3abfd012c8899fa703acacee6b0d719faf7",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:package.json",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/schemas/extension-v2.schema.json",
+      "size": 2420,
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:schemas/extension-v2.schema.json",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extension-api.ts",
+      "size": 8490,
+      "sha256": "ae4efa46b600bf12f396c56d3916a43e561bc6101fc78481868afff931a26a1c",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extension-api.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extension-builder.ts",
+      "size": 42072,
+      "sha256": "2d74cf45eb49f20a2fe189947fff4255ec47f9597a6f9291a3f7f6f582327478",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extension-builder.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extension-runner.ts",
+      "size": 161086,
+      "sha256": "16bfc8a0393bd6378b4c06a19082daa46eb4b26cfe2ae78492ad3dd074e24744",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extension-runner.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extensionWorker/host.ts",
+      "size": 1795,
+      "sha256": "1006d76af9c6eee74aff897c92fae1861d0d011e142b9cdc42442356aef5567e",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extensionWorker/host.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extensions/raycastShim.ts",
+      "size": 15067,
+      "sha256": "e9b731ab1b48228d91c1cd58b78282b998c5bba6a94ceab746734d1d2bfe5bbb",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extensions/raycastShim.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/main/extensions/service.ts",
+      "size": 27801,
+      "sha256": "cbecfd493153490b6f29f95725e3723307050117cb82afabfe32717d8089440a",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/main/extensions/service.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/ExtensionRuntimeView.tsx",
+      "size": 23694,
+      "sha256": "cfe15d50c89b0e57666604fea06327c3bd564ee2644404676a233149a025395d",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/ExtensionRuntimeView.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "size": 692,
+      "sha256": "ffbad6f70410c6d2dcf4af217abe4ab297d69c0cae2c993263c008a423175e16",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime.tsx",
+      "size": 391,
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/action-runtime.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "size": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/detail-runtime.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.test.ts",
+      "size": 3876,
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/form-runtime.test.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.tsx",
+      "size": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/form-runtime.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/index.tsx",
+      "size": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/index.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/ipc-bridge.ts",
+      "size": 1110,
+      "sha256": "17784548760d476efebeae36d5b03e9c50a69c2da2b92ce0163cabbfe9566d97",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/ipc-bridge.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/list-runtime.tsx",
+      "size": 32174,
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/list-runtime.tsx",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src/shared/extensionRuntime.ts",
+      "size": 3838,
+      "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src/shared/extensionRuntime.ts",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/common.rs",
+      "size": 7627,
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/common.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/mod.rs",
+      "size": 6248,
+      "sha256": "73c3625fdaadb944431191294dbfaa4f38a878faa03f15a917863be9c311e04f",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/mod.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native.rs",
+      "size": 14551,
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/native.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native_tests.rs",
+      "size": 23475,
+      "sha256": "75c4bf5ec47d0d64d3d8e51db0989e708d1474b1bb41a667098bd645394145fc",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/native_tests.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "size": 71862,
+      "sha256": "6cba59a7a6ec10dbe985c8fa4f4be82e4b2495b3718fd9a9a8dd7b3169e977e7",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_catalog.json",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "size": 6839,
+      "sha256": "651a16df484f42a827ac69e209e80d09cad868232d1953d241652a4a39481e16",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "size": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "size": 6755,
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/platform.rs",
+      "size": 28906,
+      "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1",
+      "kind": "original",
+      "source": "local-host-git:fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/platform.rs",
+      "origin": "read-only git show; host license fixture included"
+    },
+    {
+      "path": "fixtures/library/ajv-8.17.1.tgz",
+      "size": 217137,
+      "sha256": "f09dae78b8cc984dbf178eba92a7b19bff9e5f7c990508f3af0bf8f118770308",
+      "kind": "original",
+      "source": "npm:ajv@8.17.1",
+      "origin": "https://registry.npmjs.org/ajv/-/ajv-8.17.1.tgz"
+    },
+    {
+      "path": "fixtures/library/fast-deep-equal-3.1.3.tgz",
+      "size": 3656,
+      "sha256": "b019a0980f27638dc3f85836b0e478f188e00d7a6e5852c0819fa86f56e47b8f",
+      "kind": "original",
+      "source": "npm:fast-deep-equal@3.1.3",
+      "origin": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
+    },
+    {
+      "path": "fixtures/library/fast-uri-3.0.1.tgz",
+      "size": 21434,
+      "sha256": "c6a4384688609de189ca2a33c7e6d4363beed2ad4d6291ed9ca450e30cfff1c1",
+      "kind": "original",
+      "source": "npm:fast-uri@3.0.1",
+      "origin": "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.1.tgz"
+    },
+    {
+      "path": "fixtures/library/json-schema-traverse-1.0.0.tgz",
+      "size": 6074,
+      "sha256": "023222622df29fc274bde5d3590e47aa1d4a8e3c1d6e2aba029948ed79799b21",
+      "kind": "original",
+      "source": "npm:json-schema-traverse@1.0.0",
+      "origin": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
+    },
+    {
+      "path": "fixtures/library/prettier-2.5.1.tgz",
+      "size": 4582148,
+      "sha256": "2db9110490a01474032b198cca7e279866bb6dd8bcab3ed81eccfd1478164e6c",
+      "kind": "original",
+      "source": "npm:prettier@2.5.1",
+      "origin": "https://registry.npmjs.org/prettier/-/prettier-2.5.1.tgz"
+    },
+    {
+      "path": "fixtures/library/prettier-git-reference.json",
+      "size": 1269,
+      "sha256": "1f4cad6ec8db28b42d9604ba3030fed22d21809c767e902005424b6e2e3d603a",
+      "kind": "recorded-response",
+      "source": "GitHub git reference + resolved commit",
+      "origin": "https://api.github.com/repos/prettier/prettier/git/ref/tags/2.5.1"
+    },
+    {
+      "path": "fixtures/library/prettier-registry.json",
+      "size": 2688,
+      "sha256": "22e4fff1107116ec6a9ccbc0320a227f53e096a16ca95d97da4eaccc9598e13d",
+      "kind": "original",
+      "source": "npm registry version metadata",
+      "origin": "https://registry.npmjs.org/prettier/2.5.1"
+    },
+    {
+      "path": "fixtures/library/prettier-source-2.5.1/LICENSE",
+      "size": 1065,
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:LICENSE",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/LICENSE"
+    },
+    {
+      "path": "fixtures/library/prettier-source-2.5.1/src/language-graphql/parser-graphql.js",
+      "size": 2019,
+      "sha256": "e48f35d77507cec3c2d4343457030a363be8a28281f9823fe1c4d2daf0e3c09b",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:src/language-graphql/parser-graphql.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/src/language-graphql/parser-graphql.js"
+    },
+    {
+      "path": "fixtures/library/prettier-source-2.5.1/src/language-graphql/printer-graphql.js",
+      "size": 15535,
+      "sha256": "2e0d16d3ef1a3d7df2d2c2eb21a3e5f18885fb12f5b83d43fd9ef20bd9c21e81",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:src/language-graphql/printer-graphql.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/src/language-graphql/printer-graphql.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/arguments/hello.graphql",
+      "size": 221,
+      "sha256": "a185877650b712ecdc166d271b1cbdfa70f0589ec9b398821647a66ce9a11f87",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/arguments/hello.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/arguments/hello.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/arguments/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/arguments/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/arguments/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/bracket-spacing/bracket_spacing.graphql",
+      "size": 117,
+      "sha256": "02446505a49594c4b65e6e2ab670340497696b6da79827ce5637c199e9895a6b",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/bracket-spacing/bracket_spacing.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/bracket-spacing/bracket_spacing.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/bracket-spacing/jsfmt.spec.js",
+      "size": 95,
+      "sha256": "edc3df8348b96f3a0d0a4fe1ead278923a252b07ee690fb81da91f23415ea962",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/bracket-spacing/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/bracket-spacing/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/comments/argument_comment.graphql",
+      "size": 105,
+      "sha256": "5b94303e884f596348f8041fa3fb2a240ab31c589c1b800a5143efe9e966b9cd",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/comments/argument_comment.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/comments/argument_comment.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/comments/fields.graphql",
+      "size": 44,
+      "sha256": "20a2ce4169c38a5a9bd0cc6bcabad172be924b2a4c6bb8c78b7bb116bcb8e990",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/comments/fields.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/comments/fields.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/comments/interfaces.graphql",
+      "size": 89,
+      "sha256": "ba1b38c21bd7da6a173a144bd1cb1c72674a53ac8cd043e6d6620fb89617be39",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/comments/interfaces.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/comments/interfaces.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/comments/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/comments/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/comments/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/comments/tokens.graphql",
+      "size": 243,
+      "sha256": "01caf7119cb421329e637c50f45ab92f3f6eb688ad1dba19c6c558c0a8948135",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/comments/tokens.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/comments/tokens.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/definitions/fields.graphql",
+      "size": 264,
+      "sha256": "1f302d1169d8969e06231829b052ea6158910fb7895799f7c05a3122c0bac2e2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/definitions/fields.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/definitions/fields.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/definitions/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/definitions/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/definitions/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/deprecation/directives.graphql",
+      "size": 1682,
+      "sha256": "53589b07e3340f4a65170381a845fb7c39f79dfdf2f1e5528f826b457b71c30b",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/deprecation/directives.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/deprecation/directives.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/deprecation/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/deprecation/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/deprecation/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/directive-decl/directive_decl.graphql",
+      "size": 457,
+      "sha256": "387761b54ac689450e5e53cba81ce4aadc58407ed63407bce58aaf920c54a8e2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/directive-decl/directive_decl.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/directive-decl/directive_decl.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/directive-decl/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/directive-decl/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/directive-decl/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/directives/directives.graphql",
+      "size": 586,
+      "sha256": "b093e9055abe82b978cdf60d9332bd3f6f28533038a1d68b9c7ad8a84398bd93",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/directives/directives.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/directives/directives.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/directives/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/directives/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/directives/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/enum/enum.graphql",
+      "size": 46,
+      "sha256": "68d9eaa0c5bb1b4dd6599b50c5ea251705d216c1bb1b1aee73dfe3157226a5e3",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/enum/enum.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/enum/enum.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/enum/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/enum/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/enum/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fields/fields.graphql",
+      "size": 93,
+      "sha256": "18c0d7c79fd259c24ec053550f35fc30202823f9038372c8f5fad666c0c1fe3c",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fields/fields.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fields/fields.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fields/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fields/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fields/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fragment-variables/fragment_variables.graphql",
+      "size": 164,
+      "sha256": "ada7977be28b1f1d6d58598ce7df38775fe74bf08a22309805891b6796589a79",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fragment-variables/fragment_variables.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fragment-variables/fragment_variables.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fragment-variables/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fragment-variables/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fragment-variables/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fragments/fragments.graphql",
+      "size": 159,
+      "sha256": "1d95472ff341a297c4b09bd4f22a2b9c9efffc9d94839cdfb2d6a951dd378c6a",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fragments/fragments.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fragments/fragments.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/fragments/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/fragments/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/fragments/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/hello/hello.graphql",
+      "size": 49,
+      "sha256": "3b9f85e0a0b9a3cddebc9f1941d4ba34ed90155ef4a117a314e53edbc9fa59de",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/hello/hello.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/hello/hello.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/hello/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/hello/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/hello/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/interface.graphql",
+      "size": 617,
+      "sha256": "02ddfb7d9be338ff6cdbee6a9ab33430cc89ca27747ce41107254b82a1392e66",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/interface.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/interface.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/object_type_def.graphql",
+      "size": 497,
+      "sha256": "26796e797f10bc9caaf8d562bde185196f860254a05de3605aa66dae6bcb8831",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/object_type_def.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/object_type_def.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/object_type_def_mixed_syntax.graphql",
+      "size": 514,
+      "sha256": "3c17ed107183e1a9c5d6edfa8a32e040b72daf28d0a1cc5736fd7711374de91a",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/object_type_def_mixed_syntax.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/object_type_def_mixed_syntax.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/object_type_def_old_syntax.graphql",
+      "size": 499,
+      "sha256": "130eb0b1c3713226904a34e1fe8a98ad339dc20a8ff5ef72fcaf70c219902bbd",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/object_type_def_old_syntax.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/object_type_def_old_syntax.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/interface/separator-detection.graphql",
+      "size": 464,
+      "sha256": "b5746388b87ef3784f09174f8c38e5229281caf155a9244bb622aadccb9b7d54",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/interface/separator-detection.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/interface/separator-detection.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/kitchen-sink/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/kitchen-sink/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/kitchen-sink/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/kitchen-sink/kitchen_sink.graphql",
+      "size": 1018,
+      "sha256": "2e396e808873410b25f4e5c25e77debc626c94237ba104d4597d3c1b70c1bc96",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/kitchen-sink/kitchen_sink.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/kitchen-sink/kitchen_sink.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/kitchen-sink/schema_kitchen_sink.graphql",
+      "size": 2103,
+      "sha256": "b3660dd4db96ed6efedd91d071e26616d6b5ad023f17a3ad3f9479c6ec408b6c",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/kitchen-sink/schema_kitchen_sink.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/kitchen-sink/schema_kitchen_sink.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/lists/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/lists/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/lists/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/lists/lists.graphql",
+      "size": 188,
+      "sha256": "2f52bc8b12a6fc7c8923a2bb000cf34a51c2ee66f47dcfde2a4fcc1ee209b9f6",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/lists/lists.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/lists/lists.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/directive_decl.graphql",
+      "size": 99,
+      "sha256": "8a071695b6accb72fce8333b3f2981908030d33d9b6fb40f94d8f8724704e389",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/directive_decl.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/directive_decl.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/directives.graphql",
+      "size": 244,
+      "sha256": "97e2023e880755d82e0c0d800d71203ab8003628b5ea8725a983499f600016c4",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/directives.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/directives.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/enum.graphql",
+      "size": 115,
+      "sha256": "eefb89a8a1c69d48c4602e1235d263269d5a87abbe763db093bd27ac296471e9",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/enum.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/enum.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/fields.graphql",
+      "size": 260,
+      "sha256": "1adf835653b5522005142d7f58f36a644bd86fe0d3dcb81400cc9390f604ce66",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/fields.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/fields.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/input.graphql",
+      "size": 59,
+      "sha256": "e871964aad34ecc38bc00aadd19d1e22aa58e96bf275eda3d31512b3ded1be2d",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/input.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/input.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/interface.graphql",
+      "size": 85,
+      "sha256": "d9002afc9af03130107ec8a21339566ea39790e2a786037e476d03bbe8cf2d82",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/interface.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/interface.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/object_type_def.graphql",
+      "size": 496,
+      "sha256": "d65578435853252f322160eedec9b6c32ee07b0093c4b8c05a12323846090294",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/object_type_def.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/object_type_def.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/newline/schema.graphql",
+      "size": 126,
+      "sha256": "e6908b56a2e7e4537eea8ab59d23862357bf3143cf3b6f035e8114d9cb152689",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/newline/schema.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/newline/schema.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/arguments.graphql",
+      "size": 71,
+      "sha256": "180ab1689c7c770f70f2b6d15d41893c064e6dfebb2b98815d32ab12f19b9ebd",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/arguments.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/arguments.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/directives.graphql",
+      "size": 69,
+      "sha256": "d4d2aae575f4be3d424a62b5e164a591520718879e8692f4fda9a30e4464b66c",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/directives.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/directives.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/extend.graphql",
+      "size": 43,
+      "sha256": "4040ccdfde65044484be8b359dc39191081294523363fe16dd81065c2e7f8d18",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/extend.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/extend.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/implements.graphql",
+      "size": 63,
+      "sha256": "e3d2a17e8896cbdb9d0014dfff6574e9ddcf6fef0344fc4bfab8679ff6c7e7ed",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/implements.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/implements.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/input.graphql",
+      "size": 51,
+      "sha256": "a15eede8fa3a13382b8b642bf813834b627563c87bfcfec5d1638a14c6e857ed",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/input.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/input.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/object-type-def/object_type_def.graphql",
+      "size": 68,
+      "sha256": "84df79b7bc8a82db0cba15f04464d6b76e5a17b269c1c0e26e684b1f99ed4be6",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/object-type-def/object_type_def.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/object-type-def/object_type_def.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/objects/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/objects/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/objects/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/objects/objects.graphql",
+      "size": 235,
+      "sha256": "6465bf90d2f1fb3a3b12d5d131aae7b849c6c13f5feed4b3107c6d10427c3646",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/objects/objects.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/objects/objects.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/prettier-ignore/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/prettier-ignore/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/prettier-ignore/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/prettier-ignore/prettier-ignore-comment.graphql",
+      "size": 60,
+      "sha256": "c90a228fe7f49c215c880d5b477cb79bbac6e6b6a440599adbdfd03048600452",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/prettier-ignore/prettier-ignore-comment.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/prettier-ignore/prettier-ignore-comment.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/range/issue2296.graphql",
+      "size": 36,
+      "sha256": "93cd74ed5c841321e9d2450b096533a3c288eca96a7fc47a6c2aef0dd3a3ad3a",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/range/issue2296.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/range/issue2296.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/range/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/range/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/range/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/scalar/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/scalar/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/scalar/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/scalar/scalar.graphql",
+      "size": 25,
+      "sha256": "e879295a48cb1893067f6bd81db5c1bc4ad82d2fbabbc12c03ce1e1c66bb9c77",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/scalar/scalar.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/scalar/scalar.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/schema/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/schema/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/schema/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/schema/schema.graphql",
+      "size": 75,
+      "sha256": "034aa8ef46301166e3a4584127e7c656706b354ab918fad4af911e8ecd558f88",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/schema/schema.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/schema/schema.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/string/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/string/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/string/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/string/string.graphql",
+      "size": 580,
+      "sha256": "75855edec284951b5ca8bbb31a8859c4021564fbb07bd13f3150aa7c2c8eb1dc",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/string/string.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/string/string.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/trailing-comma/jsfmt.spec.js",
+      "size": 155,
+      "sha256": "aa2c7975788f749c0e9370b62aa6210651efc47962b8d76cee0d5d33a457e99f",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/trailing-comma/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/trailing-comma/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/trailing-comma/trailing.graphql",
+      "size": 495,
+      "sha256": "be762a5a06566d031449700be3e7141cb609612ecc334c6e095cc1c13cca8e40",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/trailing-comma/trailing.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/trailing-comma/trailing.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/type-extension-definition/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/type-extension-definition/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/type-extension-definition/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/type-extension-definition/type-extendsion-syntax.graphql",
+      "size": 78,
+      "sha256": "2cfb02a4ef3f543607bb83af73d93e296b0f3d5e85f0d2bda1de116abd49607b",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/type-extension-definition/type-extendsion-syntax.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/type-extension-definition/type-extendsion-syntax.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/union-types/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/union-types/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/union-types/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/union-types/union_types.graphql",
+      "size": 457,
+      "sha256": "1db72a0ffb6bb2bdda4edb53cec150860f699488094a35497e0f980915d23497",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/union-types/union_types.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/union-types/union_types.graphql"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/variable-definitions/jsfmt.spec.js",
+      "size": 34,
+      "sha256": "1fbb229fd7553ab11715c254679c4c4450fb575d462a54395f5e3709bceb96a2",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/variable-definitions/jsfmt.spec.js",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/variable-definitions/jsfmt.spec.js"
+    },
+    {
+      "path": "fixtures/library/prettier-tests-2.5.1/tests/format/graphql/variable-definitions/variable_definitions.graphql",
+      "size": 573,
+      "sha256": "4203b7874cffc85b20efb833cd7143eb5f00ed7d709da8a2940c631060d8ef89",
+      "kind": "original",
+      "source": "prettier/prettier@56ed71d1c99bdf5253d03df1fa2d2bd0693d8214:tests/format/graphql/variable-definitions/variable_definitions.graphql",
+      "origin": "https://raw.githubusercontent.com/prettier/prettier/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214/tests/format/graphql/variable-definitions/variable_definitions.graphql"
+    },
+    {
+      "path": "fixtures/library/raycast-utils-2.3.0.tgz",
+      "size": 270679,
+      "sha256": "f9abac32c1de426bc65bf49ba5d68376bff57bb3266bd906a13ce584ba1a8d17",
+      "kind": "original",
+      "source": "npm:@raycast/utils@2.3.0",
+      "origin": "https://registry.npmjs.org/@raycast/utils/-/utils-2.3.0.tgz"
+    },
+    {
+      "path": "fixtures/library/raycast-utils-registry.json",
+      "size": 2614,
+      "sha256": "437bbd2b99702754e431e2e5f741ede20cb468f496a967de8ebcd7610e75bf9d",
+      "kind": "original",
+      "source": "npm registry version metadata",
+      "origin": "https://registry.npmjs.org/@raycast/utils/2.3.0"
+    },
+    {
+      "path": "fixtures/library/raycast-utils-source/useForm.tsx",
+      "size": 8899,
+      "sha256": "c16fdeb2dea89f6343f94bbe952d235744e009adef74eec4c2cfd9e7478deae6",
+      "kind": "recovered-original",
+      "source": "@raycast/utils@2.3.0 published source map",
+      "origin": "fixtures/library/raycast-utils-2.3.0.tgz#package/dist/main.js.map sourcesContent: useForm.tsx"
+    },
+    {
+      "path": "fixtures/library/raycast-utils-source/useLatest.ts",
+      "size": 387,
+      "sha256": "d36ce0cacb31b08dd6b31b4b2e718f0d31b4d2eba160d713dc1b250ab2b02c2b",
+      "kind": "recovered-original",
+      "source": "@raycast/utils@2.3.0 published source map",
+      "origin": "fixtures/library/raycast-utils-2.3.0.tgz#package/dist/main.js.map sourcesContent: useLatest.ts"
+    },
+    {
+      "path": "fixtures/library/require-from-string-2.0.2.tgz",
+      "size": 1816,
+      "sha256": "cb694a4965908f7775a0c757f00cf4e624d193cd71d77988fbcca0f597b88d82",
+      "kind": "original",
+      "source": "npm:require-from-string@2.0.2",
+      "origin": "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
+    },
+    {
+      "path": "fixtures/library/typescript-5.9.3.tgz",
+      "size": 4377468,
+      "sha256": "10e108c9cf7d5f2879053dff18515fb405abf2ccef63eaaf017d9c571687a1d3",
+      "kind": "original",
+      "source": "npm:typescript@5.9.3",
+      "origin": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz"
+    },
+    {
+      "path": "fixtures/library/typescript-registry.json",
+      "size": 3904,
+      "sha256": "80f0d5d237c08c433b4cee823d75c4f54469beee86cc2fad5e1800f86b6243d8",
+      "kind": "original",
+      "source": "npm registry version metadata",
+      "origin": "https://registry.npmjs.org/typescript/5.9.3"
+    },
+    {
+      "path": "fixtures/licenses/npm/ajv-8.17.1/LICENSE",
+      "size": 1090,
+      "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3",
+      "kind": "original",
+      "source": "ajv-8.17.1 published archive",
+      "origin": "fixtures/library/ajv-8.17.1.tgz#package/LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/npm/fast-deep-equal-3.1.3/LICENSE",
+      "size": 1074,
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "kind": "original",
+      "source": "fast-deep-equal-3.1.3 published archive",
+      "origin": "fixtures/library/fast-deep-equal-3.1.3.tgz#package/LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/npm/fast-uri-3.0.1/LICENSE",
+      "size": 1763,
+      "sha256": "bf13d2149c7784aeabc5575262251fde5a26bec741a9fd05558a4afe72326ae8",
+      "kind": "original",
+      "source": "fast-uri-3.0.1 published archive",
+      "origin": "fixtures/library/fast-uri-3.0.1.tgz#package/LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/npm/json-schema-traverse-1.0.0/LICENSE",
+      "size": 1074,
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "kind": "original",
+      "source": "json-schema-traverse-1.0.0 published archive",
+      "origin": "fixtures/library/json-schema-traverse-1.0.0.tgz#package/LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/npm/prettier-2.5.1/LICENSE",
+      "size": 1065,
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+      "kind": "original",
+      "source": "prettier-2.5.1 published archive",
+      "origin": "fixtures/library/prettier-2.5.1.tgz#package/LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/npm/require-from-string-2.0.2/license",
+      "size": 1128,
+      "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+      "kind": "original",
+      "source": "require-from-string-2.0.2 published archive",
+      "origin": "fixtures/library/require-from-string-2.0.2.tgz#package/license"
+    },
+    {
+      "path": "fixtures/licenses/npm/typescript-5.9.3/LICENSE.txt",
+      "size": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "kind": "original",
+      "source": "typescript-5.9.3 published archive",
+      "origin": "fixtures/library/typescript-5.9.3.tgz#package/LICENSE.txt"
+    },
+    {
+      "path": "fixtures/licenses/npm/typescript-5.9.3/ThirdPartyNoticeText.txt",
+      "size": 37824,
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+      "kind": "original",
+      "source": "typescript-5.9.3 published archive",
+      "origin": "fixtures/library/typescript-5.9.3.tgz#package/ThirdPartyNoticeText.txt"
+    },
+    {
+      "path": "fixtures/licenses/rust/apollo-parser-0.8.5/LICENSE-APACHE",
+      "size": 20,
+      "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff",
+      "kind": "original",
+      "source": "crates.io:apollo-parser@0.8.5",
+      "origin": "https://crates.io/api/v1/crates/apollo-parser/0.8.5/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/apollo-parser-0.8.5/LICENSE-MIT",
+      "size": 17,
+      "sha256": "94949dd83279f3ca3d0ce42ce0fc154d0ed817444454ee2925e903eec93949b6",
+      "kind": "original",
+      "source": "crates.io:apollo-parser@0.8.5",
+      "origin": "https://crates.io/api/v1/crates/apollo-parser/0.8.5/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/apollo-parser-0.8.5/published-Cargo.toml.snapshot",
+      "size": 2034,
+      "sha256": "4c04df9e5010496da62a06bd1314b56d6b7149b5ad7b9ad539be8761a6634c55",
+      "kind": "original",
+      "source": "crates.io:apollo-parser@0.8.5",
+      "origin": "https://crates.io/api/v1/crates/apollo-parser/0.8.5/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/bitflags-2.13.2/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:bitflags@2.13.2",
+      "origin": "https://crates.io/api/v1/crates/bitflags/2.13.2/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/bitflags-2.13.2/LICENSE-MIT",
+      "size": 1071,
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "kind": "original",
+      "source": "crates.io:bitflags@2.13.2",
+      "origin": "https://crates.io/api/v1/crates/bitflags/2.13.2/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/bitflags-2.13.2/published-Cargo.toml.snapshot",
+      "size": 2354,
+      "sha256": "562e660adbb084de042fc9ecc5ac7ba32b5f565d53188823bab9159a027b2b44",
+      "kind": "original",
+      "source": "crates.io:bitflags@2.13.2",
+      "origin": "https://crates.io/api/v1/crates/bitflags/2.13.2/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/bumpalo-3.20.3/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:bumpalo@3.20.3",
+      "origin": "https://crates.io/api/v1/crates/bumpalo/3.20.3/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/bumpalo-3.20.3/LICENSE-MIT",
+      "size": 1059,
+      "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee",
+      "kind": "original",
+      "source": "crates.io:bumpalo@3.20.3",
+      "origin": "https://crates.io/api/v1/crates/bumpalo/3.20.3/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/bumpalo-3.20.3/published-Cargo.toml.snapshot",
+      "size": 1983,
+      "sha256": "a6d2d81f09f1c739f738032bbcb5ecf4d3ce56d2f75e2e8bae9c753b09a6db4c",
+      "kind": "original",
+      "source": "crates.io:bumpalo@3.20.3",
+      "origin": "https://crates.io/api/v1/crates/bumpalo/3.20.3/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/cfg-if-1.0.5/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:cfg-if@1.0.5",
+      "origin": "https://crates.io/api/v1/crates/cfg-if/1.0.5/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/cfg-if-1.0.5/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:cfg-if@1.0.5",
+      "origin": "https://crates.io/api/v1/crates/cfg-if/1.0.5/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/cfg-if-1.0.5/published-Cargo.toml.snapshot",
+      "size": 1239,
+      "sha256": "d646663ec1bd4e8e795bd6a386cff9c374880d6237bbfa36bbac08b7f26ce65c",
+      "kind": "original",
+      "source": "crates.io:cfg-if@1.0.5",
+      "origin": "https://crates.io/api/v1/crates/cfg-if/1.0.5/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/countme-3.0.1/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:countme@3.0.1",
+      "origin": "https://crates.io/api/v1/crates/countme/3.0.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/countme-3.0.1/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:countme@3.0.1",
+      "origin": "https://crates.io/api/v1/crates/countme/3.0.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/countme-3.0.1/published-Cargo.toml.snapshot",
+      "size": 1289,
+      "sha256": "5ba3effabbc65115689252c397fb98adb04ac0174819612ecc4e754cea3acf1b",
+      "kind": "original",
+      "source": "crates.io:countme@3.0.1",
+      "origin": "https://crates.io/api/v1/crates/countme/3.0.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/errno-0.3.14/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:errno@0.3.14",
+      "origin": "https://crates.io/api/v1/crates/errno/0.3.14/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/errno-0.3.14/LICENSE-MIT",
+      "size": 1054,
+      "sha256": "8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2",
+      "kind": "original",
+      "source": "crates.io:errno@0.3.14",
+      "origin": "https://crates.io/api/v1/crates/errno/0.3.14/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/errno-0.3.14/published-Cargo.toml.snapshot",
+      "size": 1632,
+      "sha256": "a25f16ccaa127602fc0cc9d1c80186619a0b8f42331a27b6f04b6bfa4aa29de2",
+      "kind": "original",
+      "source": "crates.io:errno@0.3.14",
+      "origin": "https://crates.io/api/v1/crates/errno/0.3.14/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/fastrand-2.5.0/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:fastrand@2.5.0",
+      "origin": "https://crates.io/api/v1/crates/fastrand/2.5.0/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/fastrand-2.5.0/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:fastrand@2.5.0",
+      "origin": "https://crates.io/api/v1/crates/fastrand/2.5.0/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/fastrand-2.5.0/published-Cargo.toml.snapshot",
+      "size": 1994,
+      "sha256": "3f01725ad91d1a1705762821e9231ea15ddfa62648143516e68d64021ae31e08",
+      "kind": "original",
+      "source": "crates.io:fastrand@2.5.0",
+      "origin": "https://crates.io/api/v1/crates/fastrand/2.5.0/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-core-0.3.34/LICENSE-APACHE",
+      "size": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "kind": "original",
+      "source": "crates.io:futures-core@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-core/0.3.34/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-core-0.3.34/LICENSE-MIT",
+      "size": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "kind": "original",
+      "source": "crates.io:futures-core@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-core/0.3.34/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-core-0.3.34/published-Cargo.toml.snapshot",
+      "size": 1507,
+      "sha256": "fa88cec6d0c527df4ff51ad034de09d3c552f6174ab8e4aa83cfaeacc36c4c7d",
+      "kind": "original",
+      "source": "crates.io:futures-core@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-core/0.3.34/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-task-0.3.34/LICENSE-APACHE",
+      "size": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "kind": "original",
+      "source": "crates.io:futures-task@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-task/0.3.34/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-task-0.3.34/LICENSE-MIT",
+      "size": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "kind": "original",
+      "source": "crates.io:futures-task@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-task/0.3.34/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-task-0.3.34/published-Cargo.toml.snapshot",
+      "size": 1335,
+      "sha256": "7d9159735fa6a29df379bfff623f6cece41584334ca022ebd34ef56152637fa8",
+      "kind": "original",
+      "source": "crates.io:futures-task@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-task/0.3.34/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-util-0.3.34/LICENSE-APACHE",
+      "size": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "kind": "original",
+      "source": "crates.io:futures-util@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-util/0.3.34/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-util-0.3.34/LICENSE-MIT",
+      "size": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "kind": "original",
+      "source": "crates.io:futures-util@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-util/0.3.34/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/futures-util-0.3.34/published-Cargo.toml.snapshot",
+      "size": 3675,
+      "sha256": "7e672d306e8de25359ed9c452e7cdc115121dc7e985008af31c85a36b70ac835",
+      "kind": "original",
+      "source": "crates.io:futures-util@0.3.34",
+      "origin": "https://crates.io/api/v1/crates/futures-util/0.3.34/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/getrandom-0.3.4/LICENSE-APACHE",
+      "size": 10849,
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+      "kind": "original",
+      "source": "crates.io:getrandom@0.3.4",
+      "origin": "https://crates.io/api/v1/crates/getrandom/0.3.4/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/getrandom-0.3.4/LICENSE-MIT",
+      "size": 1130,
+      "sha256": "29e9fe5074bd27e0e5d5d110394fbbcd841baee2651a3c4b4560a632702cede4",
+      "kind": "original",
+      "source": "crates.io:getrandom@0.3.4",
+      "origin": "https://crates.io/api/v1/crates/getrandom/0.3.4/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/getrandom-0.3.4/published-Cargo.toml.snapshot",
+      "size": 4271,
+      "sha256": "5fd1d61c342777480822b8f8259a7bd8cbf6c2486a3d389b2d5b235f667a7952",
+      "kind": "original",
+      "source": "crates.io:getrandom@0.3.4",
+      "origin": "https://crates.io/api/v1/crates/getrandom/0.3.4/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/hashbrown-0.14.5/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:hashbrown@0.14.5",
+      "origin": "https://crates.io/api/v1/crates/hashbrown/0.14.5/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/hashbrown-0.14.5/LICENSE-MIT",
+      "size": 1060,
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+      "kind": "original",
+      "source": "crates.io:hashbrown@0.14.5",
+      "origin": "https://crates.io/api/v1/crates/hashbrown/0.14.5/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/hashbrown-0.14.5/published-Cargo.toml.snapshot",
+      "size": 2616,
+      "sha256": "c011f10385da722056537329f3fcf8c9b93af742e79e38885c0152a0105fc227",
+      "kind": "original",
+      "source": "crates.io:hashbrown@0.14.5",
+      "origin": "https://crates.io/api/v1/crates/hashbrown/0.14.5/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/itoa-1.0.18/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:itoa@1.0.18",
+      "origin": "https://crates.io/api/v1/crates/itoa/1.0.18/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/itoa-1.0.18/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:itoa@1.0.18",
+      "origin": "https://crates.io/api/v1/crates/itoa/1.0.18/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/itoa-1.0.18/published-Cargo.toml.snapshot",
+      "size": 1669,
+      "sha256": "894c215e4e7e973b556b0e9627bf9b6a719a043fac9b5af9838660816392a09f",
+      "kind": "original",
+      "source": "crates.io:itoa@1.0.18",
+      "origin": "https://crates.io/api/v1/crates/itoa/1.0.18/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/js-sys-0.3.106/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:js-sys@0.3.106",
+      "origin": "https://crates.io/api/v1/crates/js-sys/0.3.106/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/js-sys-0.3.106/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:js-sys@0.3.106",
+      "origin": "https://crates.io/api/v1/crates/js-sys/0.3.106/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/js-sys-0.3.106/published-Cargo.toml.snapshot",
+      "size": 2340,
+      "sha256": "cdd44598eabfed5a9ada1ab03c32445c2f895389997454e3f9901d4bb05db9c2",
+      "kind": "original",
+      "source": "crates.io:js-sys@0.3.106",
+      "origin": "https://crates.io/api/v1/crates/js-sys/0.3.106/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/libc-0.2.191/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:libc@0.2.191",
+      "origin": "https://crates.io/api/v1/crates/libc/0.2.191/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/libc-0.2.191/LICENSE-MIT",
+      "size": 1066,
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e",
+      "kind": "original",
+      "source": "crates.io:libc@0.2.191",
+      "origin": "https://crates.io/api/v1/crates/libc/0.2.191/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/libc-0.2.191/published-Cargo.toml.snapshot",
+      "size": 6292,
+      "sha256": "c8e45fe04427917e1bbadf4b628353571c9a0f2574971231814bb71dc6a86f1f",
+      "kind": "original",
+      "source": "crates.io:libc@0.2.191",
+      "origin": "https://crates.io/api/v1/crates/libc/0.2.191/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:linux-raw-sys@0.12.1",
+      "origin": "https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "size": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "kind": "original",
+      "source": "crates.io:linux-raw-sys@0.12.1",
+      "origin": "https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download#LICENSE-Apache-2.0_WITH_LLVM-exception"
+    },
+    {
+      "path": "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:linux-raw-sys@0.12.1",
+      "origin": "https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/linux-raw-sys-0.12.1/published-Cargo.toml.snapshot",
+      "size": 2294,
+      "sha256": "1d24fe227d87b23fc5220ddf2ca4708e5e0d794a3f77961b71cd8140bf33faa5",
+      "kind": "original",
+      "source": "crates.io:linux-raw-sys@0.12.1",
+      "origin": "https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/log-0.4.28/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:log@0.4.28",
+      "origin": "https://crates.io/api/v1/crates/log/0.4.28/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/log-0.4.28/LICENSE-MIT",
+      "size": 1071,
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "kind": "original",
+      "source": "crates.io:log@0.4.28",
+      "origin": "https://crates.io/api/v1/crates/log/0.4.28/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/log-0.4.28/published-Cargo.toml.snapshot",
+      "size": 2782,
+      "sha256": "53a23ba91b2b31fb42b2986e95e8a8107fe9cdab34cc85568aeea9ce872b51ae",
+      "kind": "original",
+      "source": "crates.io:log@0.4.28",
+      "origin": "https://crates.io/api/v1/crates/log/0.4.28/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/memchr-2.8.3/COPYING",
+      "size": 126,
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "kind": "original",
+      "source": "crates.io:memchr@2.8.3",
+      "origin": "https://crates.io/api/v1/crates/memchr/2.8.3/download#COPYING"
+    },
+    {
+      "path": "fixtures/licenses/rust/memchr-2.8.3/LICENSE-MIT",
+      "size": 1081,
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "kind": "original",
+      "source": "crates.io:memchr@2.8.3",
+      "origin": "https://crates.io/api/v1/crates/memchr/2.8.3/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/memchr-2.8.3/published-Cargo.toml.snapshot",
+      "size": 1833,
+      "sha256": "a14f68b8fa55f15fd03b15dced37bcf66a0a628f568eedc82817cdb7f9281951",
+      "kind": "original",
+      "source": "crates.io:memchr@2.8.3",
+      "origin": "https://crates.io/api/v1/crates/memchr/2.8.3/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/once_cell-1.21.4/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:once_cell@1.21.4",
+      "origin": "https://crates.io/api/v1/crates/once_cell/1.21.4/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/once_cell-1.21.4/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:once_cell@1.21.4",
+      "origin": "https://crates.io/api/v1/crates/once_cell/1.21.4/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/once_cell-1.21.4/published-Cargo.toml.snapshot",
+      "size": 2542,
+      "sha256": "87e5b7ee438abdef12e46386e86370f54ad70cabdcf949556b9ef012a9da9587",
+      "kind": "original",
+      "source": "crates.io:once_cell@1.21.4",
+      "origin": "https://crates.io/api/v1/crates/once_cell/1.21.4/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/pin-project-lite-0.2.17/LICENSE-APACHE",
+      "size": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "kind": "original",
+      "source": "crates.io:pin-project-lite@0.2.17",
+      "origin": "https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/pin-project-lite-0.2.17/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:pin-project-lite@0.2.17",
+      "origin": "https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/pin-project-lite-0.2.17/published-Cargo.toml.snapshot",
+      "size": 3699,
+      "sha256": "473f9cfe9738986d0d1c46e306bd11ad3e36bca8f1eab5bbe9f7297313fb33f4",
+      "kind": "original",
+      "source": "crates.io:pin-project-lite@0.2.17",
+      "origin": "https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/proc-macro2-1.0.107/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:proc-macro2@1.0.107",
+      "origin": "https://crates.io/api/v1/crates/proc-macro2/1.0.107/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/proc-macro2-1.0.107/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:proc-macro2@1.0.107",
+      "origin": "https://crates.io/api/v1/crates/proc-macro2/1.0.107/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/proc-macro2-1.0.107/published-Cargo.toml.snapshot",
+      "size": 2460,
+      "sha256": "6bdbe54a7f052e552dcfca90351764476e2767237ec3f954df8bd9f602861056",
+      "kind": "original",
+      "source": "crates.io:proc-macro2@1.0.107",
+      "origin": "https://crates.io/api/v1/crates/proc-macro2/1.0.107/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/quote-1.0.47/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:quote@1.0.47",
+      "origin": "https://crates.io/api/v1/crates/quote/1.0.47/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/quote-1.0.47/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:quote@1.0.47",
+      "origin": "https://crates.io/api/v1/crates/quote/1.0.47/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/quote-1.0.47/published-Cargo.toml.snapshot",
+      "size": 1753,
+      "sha256": "13d8c50837f14aff48cd622349f98fb2c46350b7a0c08fd574cf7de4def27d06",
+      "kind": "original",
+      "source": "crates.io:quote@1.0.47",
+      "origin": "https://crates.io/api/v1/crates/quote/1.0.47/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/r-efi-5.3.0/published-Cargo.toml.snapshot",
+      "size": 1582,
+      "sha256": "dba000c0173b09b1e3b69afa42a715b5ab64355e6502ce6d9d1767c7845cf402",
+      "kind": "original",
+      "source": "crates.io:r-efi@5.3.0",
+      "origin": "https://crates.io/api/v1/crates/r-efi/5.3.0/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/rowan-0.16.1/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:rowan@0.16.1",
+      "origin": "https://crates.io/api/v1/crates/rowan/0.16.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/rowan-0.16.1/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:rowan@0.16.1",
+      "origin": "https://crates.io/api/v1/crates/rowan/0.16.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/rowan-0.16.1/published-Cargo.toml.snapshot",
+      "size": 1558,
+      "sha256": "cbcc91fcc6cc6034ab7b436569da02d4b9bed9eb4f70bc7f9748d580e3adfe7f",
+      "kind": "original",
+      "source": "crates.io:rowan@0.16.1",
+      "origin": "https://crates.io/api/v1/crates/rowan/0.16.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustc-hash-1.1.0/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:rustc-hash@1.1.0",
+      "origin": "https://crates.io/api/v1/crates/rustc-hash/1.1.0/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustc-hash-1.1.0/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:rustc-hash@1.1.0",
+      "origin": "https://crates.io/api/v1/crates/rustc-hash/1.1.0/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustc-hash-1.1.0/published-Cargo.toml.snapshot",
+      "size": 864,
+      "sha256": "647814b27b6fc4fbef1df70d796b53b723e776b68467372044e4182763007379",
+      "kind": "original",
+      "source": "crates.io:rustc-hash@1.1.0",
+      "origin": "https://crates.io/api/v1/crates/rustc-hash/1.1.0/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustix-1.1.5/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:rustix@1.1.5",
+      "origin": "https://crates.io/api/v1/crates/rustix/1.1.5/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustix-1.1.5/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "size": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "kind": "original",
+      "source": "crates.io:rustix@1.1.5",
+      "origin": "https://crates.io/api/v1/crates/rustix/1.1.5/download#LICENSE-Apache-2.0_WITH_LLVM-exception"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustix-1.1.5/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:rustix@1.1.5",
+      "origin": "https://crates.io/api/v1/crates/rustix/1.1.5/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustix-1.1.5/published-Cargo.toml.snapshot",
+      "size": 10296,
+      "sha256": "f57824af546c008210d8d6d63bc0fe866a3887d06100469448de3432ffa108ec",
+      "kind": "original",
+      "source": "crates.io:rustix@1.1.5",
+      "origin": "https://crates.io/api/v1/crates/rustix/1.1.5/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustversion-1.0.23/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:rustversion@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/rustversion/1.0.23/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustversion-1.0.23/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:rustversion@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/rustversion/1.0.23/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/rustversion-1.0.23/published-Cargo.toml.snapshot",
+      "size": 1817,
+      "sha256": "fc211ccd64d3ad59a0715c1a6f8cbfbbd83045f644194394595d16646eee9947",
+      "kind": "original",
+      "source": "crates.io:rustversion@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/rustversion/1.0.23/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/ryu-1.0.23/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:ryu@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/ryu/1.0.23/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/ryu-1.0.23/LICENSE-BOOST",
+      "size": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "kind": "original",
+      "source": "crates.io:ryu@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/ryu/1.0.23/download#LICENSE-BOOST"
+    },
+    {
+      "path": "fixtures/licenses/rust/ryu-1.0.23/published-Cargo.toml.snapshot",
+      "size": 2412,
+      "sha256": "410de3eae58a75b9d2558d0a4e3ed43c2c8317781ffbd30a7cbe4aebaa833e1a",
+      "kind": "original",
+      "source": "crates.io:ryu@1.0.23",
+      "origin": "https://crates.io/api/v1/crates/ryu/1.0.23/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde-1.0.228/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:serde@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde/1.0.228/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde-1.0.228/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:serde@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde/1.0.228/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde-1.0.228/published-Cargo.toml.snapshot",
+      "size": 1969,
+      "sha256": "d7fc24e39691a0831eaa0eac677b46ecbae407a40fa816b904759822d10f42e8",
+      "kind": "original",
+      "source": "crates.io:serde@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde/1.0.228/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_core-1.0.228/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:serde_core@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_core/1.0.228/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_core-1.0.228/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:serde_core@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_core/1.0.228/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_core-1.0.228/published-Cargo.toml.snapshot",
+      "size": 1950,
+      "sha256": "b1c07acb994f88418a0bbb0d393f76c4ca4276d9f4497ca734eb182286169ea8",
+      "kind": "original",
+      "source": "crates.io:serde_core@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_core/1.0.228/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_derive-1.0.228/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:serde_derive@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_derive/1.0.228/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_derive-1.0.228/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:serde_derive@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_derive/1.0.228/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_derive-1.0.228/published-Cargo.toml.snapshot",
+      "size": 2099,
+      "sha256": "3de014980e9645f2e33779acd06919c9f3b717a79e10f56004918d12c4365c27",
+      "kind": "original",
+      "source": "crates.io:serde_derive@1.0.228",
+      "origin": "https://crates.io/api/v1/crates/serde_derive/1.0.228/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_json-1.0.145/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:serde_json@1.0.145",
+      "origin": "https://crates.io/api/v1/crates/serde_json/1.0.145/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_json-1.0.145/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:serde_json@1.0.145",
+      "origin": "https://crates.io/api/v1/crates/serde_json/1.0.145/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/serde_json-1.0.145/published-Cargo.toml.snapshot",
+      "size": 3083,
+      "sha256": "a603996936a2ed8d62e4bf158aeacd830b7c8f237cefc31c3bf6313fbf26d214",
+      "kind": "original",
+      "source": "crates.io:serde_json@1.0.145",
+      "origin": "https://crates.io/api/v1/crates/serde_json/1.0.145/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/slab-0.4.12/LICENSE",
+      "size": 1055,
+      "sha256": "8ce0830173fdac609dfb4ea603fdc002c2f4af0dc9b1a005653f5da9cf534b18",
+      "kind": "original",
+      "source": "crates.io:slab@0.4.12",
+      "origin": "https://crates.io/api/v1/crates/slab/0.4.12/download#LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/rust/slab-0.4.12/published-Cargo.toml.snapshot",
+      "size": 1389,
+      "sha256": "11f31284be0c30b612f4e2c2e46aa14494a81639b12661f01f07394e270c0070",
+      "kind": "original",
+      "source": "crates.io:slab@0.4.12",
+      "origin": "https://crates.io/api/v1/crates/slab/0.4.12/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-2.0.119/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:syn@2.0.119",
+      "origin": "https://crates.io/api/v1/crates/syn/2.0.119/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-2.0.119/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:syn@2.0.119",
+      "origin": "https://crates.io/api/v1/crates/syn/2.0.119/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-2.0.119/published-Cargo.toml.snapshot",
+      "size": 5007,
+      "sha256": "da8b83ac2c66a7b404dc55d88ae42592f70714823251f51b620ae349b246a18f",
+      "kind": "original",
+      "source": "crates.io:syn@2.0.119",
+      "origin": "https://crates.io/api/v1/crates/syn/2.0.119/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-3.0.9/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:syn@3.0.9",
+      "origin": "https://crates.io/api/v1/crates/syn/3.0.9/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-3.0.9/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:syn@3.0.9",
+      "origin": "https://crates.io/api/v1/crates/syn/3.0.9/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/syn-3.0.9/published-Cargo.toml.snapshot",
+      "size": 4938,
+      "sha256": "b6f7f6069d92142d3e294f84855a68049bebc5b886c557ed4ae980ddbc866e1c",
+      "kind": "original",
+      "source": "crates.io:syn@3.0.9",
+      "origin": "https://crates.io/api/v1/crates/syn/3.0.9/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/tempfile-3.23.0/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:tempfile@3.23.0",
+      "origin": "https://crates.io/api/v1/crates/tempfile/3.23.0/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/tempfile-3.23.0/LICENSE-MIT",
+      "size": 1056,
+      "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36",
+      "kind": "original",
+      "source": "crates.io:tempfile@3.23.0",
+      "origin": "https://crates.io/api/v1/crates/tempfile/3.23.0/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/tempfile-3.23.0/published-Cargo.toml.snapshot",
+      "size": 2187,
+      "sha256": "c1c815395a328c40cd1785787a0abd8b431512918e97eebd7d013f5a8b602158",
+      "kind": "original",
+      "source": "crates.io:tempfile@3.23.0",
+      "origin": "https://crates.io/api/v1/crates/tempfile/3.23.0/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/text-size-1.1.1/LICENSE-APACHE",
+      "size": 11048,
+      "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
+      "kind": "original",
+      "source": "crates.io:text-size@1.1.1",
+      "origin": "https://crates.io/api/v1/crates/text-size/1.1.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/text-size-1.1.1/LICENSE-MIT",
+      "size": 1046,
+      "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9",
+      "kind": "original",
+      "source": "crates.io:text-size@1.1.1",
+      "origin": "https://crates.io/api/v1/crates/text-size/1.1.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/text-size-1.1.1/published-Cargo.toml.snapshot",
+      "size": 1100,
+      "sha256": "7a97e8fe3dabc009da1aa1c773dff9e5bfe4215602390baebc6e1acaba91fa0d",
+      "kind": "original",
+      "source": "crates.io:text-size@1.1.1",
+      "origin": "https://crates.io/api/v1/crates/text-size/1.1.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-2.0.21/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:thiserror@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror/2.0.21/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-2.0.21/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:thiserror@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror/2.0.21/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-2.0.21/published-Cargo.toml.snapshot",
+      "size": 2433,
+      "sha256": "4ab1fdd3cba041dbaa5b813dff268978a93b1542dcc31935fb903772cc700a47",
+      "kind": "original",
+      "source": "crates.io:thiserror@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror/2.0.21/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-impl-2.0.21/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:thiserror-impl@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror-impl/2.0.21/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-impl-2.0.21/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:thiserror-impl@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror-impl/2.0.21/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/thiserror-impl-2.0.21/published-Cargo.toml.snapshot",
+      "size": 1470,
+      "sha256": "cc5e3660d65270da1302d5b24cbefb50b4993b258d344a9ac9b4b69a612aa27f",
+      "kind": "original",
+      "source": "crates.io:thiserror-impl@2.0.21",
+      "origin": "https://crates.io/api/v1/crates/thiserror-impl/2.0.21/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/tokio-1.48.0/LICENSE",
+      "size": 1070,
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "kind": "original",
+      "source": "crates.io:tokio@1.48.0",
+      "origin": "https://crates.io/api/v1/crates/tokio/1.48.0/download#LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/rust/tokio-1.48.0/published-Cargo.toml.snapshot",
+      "size": 16113,
+      "sha256": "2eef6ac07430e7a7d320dd92089232e6c0326335ca518bd21b025a497c38b6ac",
+      "kind": "original",
+      "source": "crates.io:tokio@1.48.0",
+      "origin": "https://crates.io/api/v1/crates/tokio/1.48.0/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/tokio-macros-2.6.1/LICENSE",
+      "size": 1102,
+      "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9",
+      "kind": "original",
+      "source": "crates.io:tokio-macros@2.6.1",
+      "origin": "https://crates.io/api/v1/crates/tokio-macros/2.6.1/download#LICENSE"
+    },
+    {
+      "path": "fixtures/licenses/rust/tokio-macros-2.6.1/published-Cargo.toml.snapshot",
+      "size": 1623,
+      "sha256": "1285cf7f991961fabdd709b47351809114d9f8d6bfac98591b74507a972c1a2c",
+      "kind": "original",
+      "source": "crates.io:tokio-macros@2.6.1",
+      "origin": "https://crates.io/api/v1/crates/tokio-macros/2.6.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-APACHE",
+      "size": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "kind": "original",
+      "source": "crates.io:unicode-ident@1.0.27",
+      "origin": "https://crates.io/api/v1/crates/unicode-ident/1.0.27/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:unicode-ident@1.0.27",
+      "origin": "https://crates.io/api/v1/crates/unicode-ident/1.0.27/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-UNICODE",
+      "size": 1995,
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+      "kind": "original",
+      "source": "crates.io:unicode-ident@1.0.27",
+      "origin": "https://crates.io/api/v1/crates/unicode-ident/1.0.27/download#LICENSE-UNICODE"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-ident-1.0.27/published-Cargo.toml.snapshot",
+      "size": 2072,
+      "sha256": "c0e96a9c7ee62f5f9ab12de69e0ad44826ad753911d47638f605c936f7ea2c1c",
+      "kind": "original",
+      "source": "crates.io:unicode-ident@1.0.27",
+      "origin": "https://crates.io/api/v1/crates/unicode-ident/1.0.27/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-width-0.2.2/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:unicode-width@0.2.2",
+      "origin": "https://crates.io/api/v1/crates/unicode-width/0.2.2/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-width-0.2.2/LICENSE-MIT",
+      "size": 1071,
+      "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0",
+      "kind": "original",
+      "source": "crates.io:unicode-width@0.2.2",
+      "origin": "https://crates.io/api/v1/crates/unicode-width/0.2.2/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/unicode-width-0.2.2/published-Cargo.toml.snapshot",
+      "size": 1681,
+      "sha256": "dbf0a72e293238d87afd46f58ba597408f40c86e372a1d0b271c89fb4c3639c4",
+      "kind": "original",
+      "source": "crates.io:unicode-width@0.2.2",
+      "origin": "https://crates.io/api/v1/crates/unicode-width/0.2.2/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/uuid-1.18.1/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:uuid@1.18.1",
+      "origin": "https://crates.io/api/v1/crates/uuid/1.18.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/uuid-1.18.1/LICENSE-MIT",
+      "size": 1157,
+      "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d",
+      "kind": "original",
+      "source": "crates.io:uuid@1.18.1",
+      "origin": "https://crates.io/api/v1/crates/uuid/1.18.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/uuid-1.18.1/published-Cargo.toml.snapshot",
+      "size": 5010,
+      "sha256": "b86522e1e8554556ee4016d1f72f60833b073b601d4a1d867b3057d0db388d4b",
+      "kind": "original",
+      "source": "crates.io:uuid@1.18.1",
+      "origin": "https://crates.io/api/v1/crates/uuid/1.18.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wasip2-1.0.4+wasi@0.2.12",
+      "origin": "https://crates.io/api/v1/crates/wasip2-1.0.4+wasi/0.2.12/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "size": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "kind": "original",
+      "source": "crates.io:wasip2-1.0.4+wasi@0.2.12",
+      "origin": "https://crates.io/api/v1/crates/wasip2-1.0.4+wasi/0.2.12/download#LICENSE-Apache-2.0_WITH_LLVM-exception"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:wasip2-1.0.4+wasi@0.2.12",
+      "origin": "https://crates.io/api/v1/crates/wasip2-1.0.4+wasi/0.2.12/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/published-Cargo.toml.snapshot",
+      "size": 2088,
+      "sha256": "a4cf47d49115ca7543113c3c4c136e0cdd3dfff344eefa0f64ee8c5200e99fa9",
+      "kind": "original",
+      "source": "crates.io:wasip2-1.0.4+wasi@0.2.12",
+      "origin": "https://crates.io/api/v1/crates/wasip2-1.0.4+wasi/0.2.12/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-0.2.129/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen/0.2.129/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-0.2.129/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen/0.2.129/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-0.2.129/published-Cargo.toml.snapshot",
+      "size": 2997,
+      "sha256": "96843908592c36f81e731f634488401256cc45e23edbf6543895b2bd79813b32",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen/0.2.129/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.129/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.129/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/published-Cargo.toml.snapshot",
+      "size": 1950,
+      "sha256": "a5d61198c3fc14bdf36f57f0e6bffedc824570358329cd4059693471cff958f8",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.129/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro-support@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.129/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro-support@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.129/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/published-Cargo.toml.snapshot",
+      "size": 2070,
+      "sha256": "c17f86106f0dd0d2afb678740fccee4b867f62dd1a4fdd3bf22d1f25eadfe11c",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-macro-support@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.129/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-shared@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.129/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/LICENSE-MIT",
+      "size": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-shared@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.129/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/published-Cargo.toml.snapshot",
+      "size": 1823,
+      "sha256": "0c881c48b419371c15f715f2909ed2e5291601e33e9fd87a356a3d9eb998e611",
+      "kind": "original",
+      "source": "crates.io:wasm-bindgen-shared@0.2.129",
+      "origin": "https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.129/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-link-0.2.1/license-apache-2.0",
+      "size": 11351,
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "kind": "original",
+      "source": "crates.io:windows-link@0.2.1",
+      "origin": "https://crates.io/api/v1/crates/windows-link/0.2.1/download#license-apache-2.0"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-link-0.2.1/license-mit",
+      "size": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "kind": "original",
+      "source": "crates.io:windows-link@0.2.1",
+      "origin": "https://crates.io/api/v1/crates/windows-link/0.2.1/download#license-mit"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-link-0.2.1/published-Cargo.toml.snapshot",
+      "size": 1053,
+      "sha256": "abf0b74b168ec7d7c600f44eb90502c47e44480a199b9adc9ec74ea990605707",
+      "kind": "original",
+      "source": "crates.io:windows-link@0.2.1",
+      "origin": "https://crates.io/api/v1/crates/windows-link/0.2.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-sys-0.61.2/license-apache-2.0",
+      "size": 11351,
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "kind": "original",
+      "source": "crates.io:windows-sys@0.61.2",
+      "origin": "https://crates.io/api/v1/crates/windows-sys/0.61.2/download#license-apache-2.0"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-sys-0.61.2/license-mit",
+      "size": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "kind": "original",
+      "source": "crates.io:windows-sys@0.61.2",
+      "origin": "https://crates.io/api/v1/crates/windows-sys/0.61.2/download#license-mit"
+    },
+    {
+      "path": "fixtures/licenses/rust/windows-sys-0.61.2/published-Cargo.toml.snapshot",
+      "size": 12784,
+      "sha256": "1adbc955d5460fa64dc16e6c8198b25672e8d4b97d45ecfb262eb2693ce08422",
+      "kind": "original",
+      "source": "crates.io:windows-sys@0.61.2",
+      "origin": "https://crates.io/api/v1/crates/windows-sys/0.61.2/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-APACHE",
+      "size": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "kind": "original",
+      "source": "crates.io:wit-bindgen@0.57.1",
+      "origin": "https://crates.io/api/v1/crates/wit-bindgen/0.57.1/download#LICENSE-APACHE"
+    },
+    {
+      "path": "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "size": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "kind": "original",
+      "source": "crates.io:wit-bindgen@0.57.1",
+      "origin": "https://crates.io/api/v1/crates/wit-bindgen/0.57.1/download#LICENSE-Apache-2.0_WITH_LLVM-exception"
+    },
+    {
+      "path": "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-MIT",
+      "size": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "kind": "original",
+      "source": "crates.io:wit-bindgen@0.57.1",
+      "origin": "https://crates.io/api/v1/crates/wit-bindgen/0.57.1/download#LICENSE-MIT"
+    },
+    {
+      "path": "fixtures/licenses/rust/wit-bindgen-0.57.1/published-Cargo.toml.snapshot",
+      "size": 2402,
+      "sha256": "bb7fe08cf7f552712e29c7373c058d5fe74d650f954c2462e523e40fee273f9f",
+      "kind": "original",
+      "source": "crates.io:wit-bindgen@0.57.1",
+      "origin": "https://crates.io/api/v1/crates/wit-bindgen/0.57.1/download#Cargo.toml"
+    },
+    {
+      "path": "fixtures/licenses/rust-dependencies.json",
+      "size": 24868,
+      "sha256": "67afcc88f8b9e96bd9a52e9f645c10275ac50533a7e6e5dca6749eb6fd113aed",
+      "kind": "generated-inventory",
+      "source": "Cargo.lock + actual registry package metadata/license texts",
+      "origin": "Cargo.lock; fixtures/licenses/rust/"
+    },
+    {
+      "path": "fixtures/oracle.json",
+      "size": 316492,
+      "sha256": "164fcf1660fa0efcdbc9b478dbb800a2fd48389d4c9b55a7201efee6a5198748",
+      "kind": "generated-oracle",
+      "source": "real pinned Prettier / executable source with explicit recording shims",
+      "origin": "scripts/oracle.cjs"
+    },
+    {
+      "path": "fixtures/own/LICENSE",
+      "size": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:LICENSE",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/LICENSE"
+    },
+    {
+      "path": "fixtures/own/package-lock.json",
+      "size": 122884,
+      "sha256": "5165deef28d37ab1c42b07736ef4254b6ec23c363514851f3c1728f4cf43caa9",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:package-lock.json",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/package-lock.json"
+    },
+    {
+      "path": "fixtures/own/package.json",
+      "size": 1473,
+      "sha256": "0b5e8e91b675b6467ac8069a98faca086eb5f3281895726a552cab94ba232513",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:package.json",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/package.json"
+    },
+    {
+      "path": "fixtures/own/raycast-env.d.ts",
+      "size": 647,
+      "sha256": "69f21c35eda9ce3c635ab53d2224932e4b6b2fade691271bb54d9875283e6333",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:raycast-env.d.ts",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/raycast-env.d.ts"
+    },
+    {
+      "path": "fixtures/own/src/index.tsx",
+      "size": 2248,
+      "sha256": "bc7b1f9387fa7ef18a3af3f64c3e019874c2b40ec56d1004d8ecd72bd41fbc95",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:src/index.tsx",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/src/index.tsx"
+    },
+    {
+      "path": "fixtures/own/test/smoke.test.ts",
+      "size": 456,
+      "sha256": "59513689f4bb6078a2ff2510b5a0f85b0b4de387cca4da80956c28fa045d3313",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:test/smoke.test.ts",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/test/smoke.test.ts"
+    },
+    {
+      "path": "fixtures/own/tsconfig.json",
+      "size": 525,
+      "sha256": "bb151e8c2e5442f6f9e42b27c08d88b0f7d2c5c127268ce0aedab2ef964b1eee",
+      "kind": "original",
+      "source": "git:b1edb8f7837a148fef50fdf79fcfe917a7aed952:tsconfig.json",
+      "origin": "https://github.com/almatkai/format-graphql/blob/b1edb8f7837a148fef50fdf79fcfe917a7aed952/tsconfig.json"
+    },
+    {
+      "path": "fixtures/representation-gap.json",
+      "size": 794,
+      "sha256": "8f3f09b3a6b9efb17933becd16b46390c269206f975a788681d7df85f794f84f",
+      "kind": "generated-oracle",
+      "source": "real pinned Prettier / executable source with explicit recording shims",
+      "origin": "scripts/representation-gap.cjs"
+    },
+    {
+      "path": "fixtures/source-trace.json",
+      "size": 6635,
+      "sha256": "468945829b3c69780236a814af1300bbfd5bdba80c81f937262e4edce9fd1bb8",
+      "kind": "generated-oracle",
+      "source": "real pinned Prettier / executable source with explicit recording shims",
+      "origin": "scripts/source-oracle.cjs"
+    },
+    {
+      "path": "fixtures/upstream/LICENSE",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:LICENSE",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/LICENSE"
+    },
+    {
+      "path": "fixtures/upstream/extensions/format-graphql/assets/command-icon.png",
+      "size": 224850,
+      "sha256": "98addbe45d1d95735dd96b50284d0e6ab6c6d67736ab81f7446fc32f4301d9e4",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:extensions/format-graphql/assets/command-icon.png",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/format-graphql/assets/command-icon.png"
+    },
+    {
+      "path": "fixtures/upstream/extensions/format-graphql/package-lock.json",
+      "size": 147892,
+      "sha256": "6692e133b80abae68385818b6e0c68aa2a9a8c7f7f80603cb2eb7c95dc806ce3",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:extensions/format-graphql/package-lock.json",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/format-graphql/package-lock.json"
+    },
+    {
+      "path": "fixtures/upstream/extensions/format-graphql/package.json",
+      "size": 999,
+      "sha256": "530b0aaf27f5683c6a677b4d65e573a4950e7d0b937dadc48929c18424c83522",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:extensions/format-graphql/package.json",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/format-graphql/package.json"
+    },
+    {
+      "path": "fixtures/upstream/extensions/format-graphql/src/index.tsx",
+      "size": 2242,
+      "sha256": "60ab7ac158fd66fe73709b534c065d7eb2cdf9d7cde124d014a5f89cc71fbf65",
+      "kind": "original",
+      "source": "raycast/extensions@6734d85992290066fd31a7f5bee3cca3d3545a1a:extensions/format-graphql/src/index.tsx",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/format-graphql/src/index.tsx"
+    },
+    {
+      "path": "integration/base/docs/NATIVE_V2_FORMAT.md",
+      "size": 2593,
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:docs/NATIVE_V2_FORMAT.md",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src/renderer/src/raycast-api/form-runtime.tsx",
+      "size": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/src/raycast-api/form-runtime.tsx",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src/renderer/src/raycast-api/index.tsx",
+      "size": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/src/raycast-api/index.tsx",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src-tauri/Cargo.toml.snapshot",
+      "size": 2159,
+      "sha256": "285114522ed1c0ceb3c8acd9950662d34ffbf97ce3effc04c9b498e258339fbe",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/Cargo.toml",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src-tauri/src/native_core/extensions/mod.rs",
+      "size": 6248,
+      "sha256": "73c3625fdaadb944431191294dbfaa4f38a878faa03f15a917863be9c311e04f",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/mod.rs",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "size": 71655,
+      "sha256": "a9f82ddd782dc56b3ed43b9d4d51651ce10a51a368a7befc942f200b2601e955",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_catalog.json",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "size": 7008,
+      "sha256": "de6e471f443b2888a5d5faa55e30c130003d182d22286f10e841027cdcd0ae96",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "origin": "read-only git show; integration base only"
+    },
+    {
+      "path": "integration/base/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "size": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "kind": "original",
+      "source": "local-host-git:fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "origin": "read-only git show; integration base only"
+    }
+  ]
+}

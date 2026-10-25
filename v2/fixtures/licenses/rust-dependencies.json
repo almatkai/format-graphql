@@ -1,0 +1,626 @@
+[
+  {
+    "name": "apollo-parser",
+    "version": "0.8.5",
+    "registryChecksum": "947e21ff51879f8a40d7519dfe619268de2afba4042a8a43878276de3cb910f0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/apollographql/apollo-rs",
+    "files": [
+      "fixtures/licenses/rust/apollo-parser-0.8.5/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/apollo-parser-0.8.5/LICENSE-APACHE",
+      "fixtures/licenses/rust/apollo-parser-0.8.5/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bitflags",
+    "version": "2.13.2",
+    "registryChecksum": "3ded4057c258ba199e2d26386d3af3780957ecaee6c4ef4041c6b4b8b97c0b06",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/bitflags/bitflags",
+    "files": [
+      "fixtures/licenses/rust/bitflags-2.13.2/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/bitflags-2.13.2/LICENSE-APACHE",
+      "fixtures/licenses/rust/bitflags-2.13.2/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bumpalo",
+    "version": "3.20.3",
+    "registryChecksum": "72f5acc6cb2ba439de613abc23857ec3d78374d8ed5ac84e9d11336e87da8649",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/fitzgen/bumpalo",
+    "files": [
+      "fixtures/licenses/rust/bumpalo-3.20.3/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/bumpalo-3.20.3/LICENSE-APACHE",
+      "fixtures/licenses/rust/bumpalo-3.20.3/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cfg-if",
+    "version": "1.0.5",
+    "registryChecksum": "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/cfg-if",
+    "files": [
+      "fixtures/licenses/rust/cfg-if-1.0.5/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/cfg-if-1.0.5/LICENSE-APACHE",
+      "fixtures/licenses/rust/cfg-if-1.0.5/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "countme",
+    "version": "3.0.1",
+    "registryChecksum": "7704b5fdd17b18ae31c4c1da5a2e0305a2bf17b5249300a9ee9ed7b72114c636",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/matklad/countme",
+    "files": [
+      "fixtures/licenses/rust/countme-3.0.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/countme-3.0.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/countme-3.0.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "errno",
+    "version": "0.3.14",
+    "registryChecksum": "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/lambda-fairy/rust-errno",
+    "files": [
+      "fixtures/licenses/rust/errno-0.3.14/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/errno-0.3.14/LICENSE-APACHE",
+      "fixtures/licenses/rust/errno-0.3.14/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "fastrand",
+    "version": "2.5.0",
+    "registryChecksum": "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/smol-rs/fastrand",
+    "files": [
+      "fixtures/licenses/rust/fastrand-2.5.0/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/fastrand-2.5.0/LICENSE-APACHE",
+      "fixtures/licenses/rust/fastrand-2.5.0/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "futures-core",
+    "version": "0.3.34",
+    "registryChecksum": "92d699e522242e69e3003b94ecc1f960f3a5e015aa7c5d7486e65ad01dd94f5e",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "files": [
+      "fixtures/licenses/rust/futures-core-0.3.34/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/futures-core-0.3.34/LICENSE-APACHE",
+      "fixtures/licenses/rust/futures-core-0.3.34/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "futures-task",
+    "version": "0.3.34",
+    "registryChecksum": "cd417de3d1d015fc3bfd2b1ea46dfc7bab72ef86f1cc7cc9c78e728b34a6d1fd",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "files": [
+      "fixtures/licenses/rust/futures-task-0.3.34/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/futures-task-0.3.34/LICENSE-APACHE",
+      "fixtures/licenses/rust/futures-task-0.3.34/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "futures-util",
+    "version": "0.3.34",
+    "registryChecksum": "0d50a92467f8ba5dd6e3ee5d4bd04d73ab2e4e1c44474a0674821dfce14b79bc",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "files": [
+      "fixtures/licenses/rust/futures-util-0.3.34/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/futures-util-0.3.34/LICENSE-APACHE",
+      "fixtures/licenses/rust/futures-util-0.3.34/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "getrandom",
+    "version": "0.3.4",
+    "registryChecksum": "899def5c37c4fd7b2664648c28120ecec138e4d395b459e5ca34f9cce2dd77fd",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/getrandom",
+    "files": [
+      "fixtures/licenses/rust/getrandom-0.3.4/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/getrandom-0.3.4/LICENSE-APACHE",
+      "fixtures/licenses/rust/getrandom-0.3.4/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "hashbrown",
+    "version": "0.14.5",
+    "registryChecksum": "e5274423e17b7c9fc20b6e7e208532f9b19825d82dfd615708b70edd83df41f1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/hashbrown",
+    "files": [
+      "fixtures/licenses/rust/hashbrown-0.14.5/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/hashbrown-0.14.5/LICENSE-APACHE",
+      "fixtures/licenses/rust/hashbrown-0.14.5/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "itoa",
+    "version": "1.0.18",
+    "registryChecksum": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/itoa",
+    "files": [
+      "fixtures/licenses/rust/itoa-1.0.18/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/itoa-1.0.18/LICENSE-APACHE",
+      "fixtures/licenses/rust/itoa-1.0.18/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "js-sys",
+    "version": "0.3.106",
+    "registryChecksum": "7883d941dae510fb2d978fc3fe018c71c9e2892fd38854de3e8b92c2e5ad9cc5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys",
+    "files": [
+      "fixtures/licenses/rust/js-sys-0.3.106/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/js-sys-0.3.106/LICENSE-APACHE",
+      "fixtures/licenses/rust/js-sys-0.3.106/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "libc",
+    "version": "0.2.191",
+    "registryChecksum": "65cd87c9a6d60536580b316ad985726104730a5151c99845f2490428ef91240a",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/libc",
+    "files": [
+      "fixtures/licenses/rust/libc-0.2.191/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/libc-0.2.191/LICENSE-APACHE",
+      "fixtures/licenses/rust/libc-0.2.191/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "linux-raw-sys",
+    "version": "0.12.1",
+    "registryChecksum": "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/sunfishcode/linux-raw-sys",
+    "files": [
+      "fixtures/licenses/rust/linux-raw-sys-0.12.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "fixtures/licenses/rust/linux-raw-sys-0.12.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "log",
+    "version": "0.4.28",
+    "registryChecksum": "34080505efa8e45a4b816c349525ebe327ceaa8559756f0356cba97ef3bf7432",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/log",
+    "files": [
+      "fixtures/licenses/rust/log-0.4.28/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/log-0.4.28/LICENSE-APACHE",
+      "fixtures/licenses/rust/log-0.4.28/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "memchr",
+    "version": "2.8.3",
+    "registryChecksum": "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98",
+    "license": "Unlicense OR MIT",
+    "repository": "https://github.com/BurntSushi/memchr",
+    "files": [
+      "fixtures/licenses/rust/memchr-2.8.3/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/memchr-2.8.3/COPYING",
+      "fixtures/licenses/rust/memchr-2.8.3/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "once_cell",
+    "version": "1.21.4",
+    "registryChecksum": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/matklad/once_cell",
+    "files": [
+      "fixtures/licenses/rust/once_cell-1.21.4/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/once_cell-1.21.4/LICENSE-APACHE",
+      "fixtures/licenses/rust/once_cell-1.21.4/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "pin-project-lite",
+    "version": "0.2.17",
+    "registryChecksum": "a89322df9ebe1c1578d689c92318e070967d1042b512afbe49518723f4e6d5cd",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/taiki-e/pin-project-lite",
+    "files": [
+      "fixtures/licenses/rust/pin-project-lite-0.2.17/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/pin-project-lite-0.2.17/LICENSE-APACHE",
+      "fixtures/licenses/rust/pin-project-lite-0.2.17/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "registryChecksum": "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/proc-macro2",
+    "files": [
+      "fixtures/licenses/rust/proc-macro2-1.0.107/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/proc-macro2-1.0.107/LICENSE-APACHE",
+      "fixtures/licenses/rust/proc-macro2-1.0.107/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "quote",
+    "version": "1.0.47",
+    "registryChecksum": "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/quote",
+    "files": [
+      "fixtures/licenses/rust/quote-1.0.47/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/quote-1.0.47/LICENSE-APACHE",
+      "fixtures/licenses/rust/quote-1.0.47/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "r-efi",
+    "version": "5.3.0",
+    "registryChecksum": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+    "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "files": [
+      "fixtures/licenses/rust/r-efi-5.3.0/published-Cargo.toml.snapshot"
+    ]
+  },
+  {
+    "name": "rowan",
+    "version": "0.16.1",
+    "registryChecksum": "417a3a9f582e349834051b8a10c8d71ca88da4211e4093528e36b9845f6b5f21",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-analyzer/rowan",
+    "files": [
+      "fixtures/licenses/rust/rowan-0.16.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/rowan-0.16.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/rowan-0.16.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustc-hash",
+    "version": "1.1.0",
+    "registryChecksum": "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2",
+    "license": "Apache-2.0/MIT",
+    "repository": "https://github.com/rust-lang-nursery/rustc-hash",
+    "files": [
+      "fixtures/licenses/rust/rustc-hash-1.1.0/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/rustc-hash-1.1.0/LICENSE-APACHE",
+      "fixtures/licenses/rust/rustc-hash-1.1.0/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustix",
+    "version": "1.1.5",
+    "registryChecksum": "891efababe418670775f199f0d233d84843c227a0949a883ce15b37c78d6629d",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/rustix",
+    "files": [
+      "fixtures/licenses/rust/rustix-1.1.5/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/rustix-1.1.5/LICENSE-APACHE",
+      "fixtures/licenses/rust/rustix-1.1.5/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "fixtures/licenses/rust/rustix-1.1.5/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustversion",
+    "version": "1.0.23",
+    "registryChecksum": "cf54715a573b99ac80df0bc206da022bcd442c974952c7b9720069370852e21f",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/rustversion",
+    "files": [
+      "fixtures/licenses/rust/rustversion-1.0.23/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/rustversion-1.0.23/LICENSE-APACHE",
+      "fixtures/licenses/rust/rustversion-1.0.23/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "ryu",
+    "version": "1.0.23",
+    "registryChecksum": "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f",
+    "license": "Apache-2.0 OR BSL-1.0",
+    "repository": "https://github.com/dtolnay/ryu",
+    "files": [
+      "fixtures/licenses/rust/ryu-1.0.23/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/ryu-1.0.23/LICENSE-APACHE",
+      "fixtures/licenses/rust/ryu-1.0.23/LICENSE-BOOST"
+    ]
+  },
+  {
+    "name": "serde",
+    "version": "1.0.228",
+    "registryChecksum": "9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "files": [
+      "fixtures/licenses/rust/serde-1.0.228/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/serde-1.0.228/LICENSE-APACHE",
+      "fixtures/licenses/rust/serde-1.0.228/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_core",
+    "version": "1.0.228",
+    "registryChecksum": "41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "files": [
+      "fixtures/licenses/rust/serde_core-1.0.228/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/serde_core-1.0.228/LICENSE-APACHE",
+      "fixtures/licenses/rust/serde_core-1.0.228/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_derive",
+    "version": "1.0.228",
+    "registryChecksum": "d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "files": [
+      "fixtures/licenses/rust/serde_derive-1.0.228/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/serde_derive-1.0.228/LICENSE-APACHE",
+      "fixtures/licenses/rust/serde_derive-1.0.228/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "serde_json",
+    "version": "1.0.145",
+    "registryChecksum": "402a6f66d8c709116cf22f558eab210f5a50187f702eb4d7e5ef38d9a7f1c79c",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/json",
+    "files": [
+      "fixtures/licenses/rust/serde_json-1.0.145/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/serde_json-1.0.145/LICENSE-APACHE",
+      "fixtures/licenses/rust/serde_json-1.0.145/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "slab",
+    "version": "0.4.12",
+    "registryChecksum": "0c790de23124f9ab44544d7ac05d60440adc586479ce501c1d6d7da3cd8c9cf5",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/slab",
+    "files": [
+      "fixtures/licenses/rust/slab-0.4.12/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/slab-0.4.12/LICENSE"
+    ]
+  },
+  {
+    "name": "syn",
+    "version": "2.0.119",
+    "registryChecksum": "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/syn",
+    "files": [
+      "fixtures/licenses/rust/syn-2.0.119/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/syn-2.0.119/LICENSE-APACHE",
+      "fixtures/licenses/rust/syn-2.0.119/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "syn",
+    "version": "3.0.9",
+    "registryChecksum": "d78c8dee4c7bf0e14673097256fed6142ce9d3b85a408189d07482442145823b",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/syn",
+    "files": [
+      "fixtures/licenses/rust/syn-3.0.9/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/syn-3.0.9/LICENSE-APACHE",
+      "fixtures/licenses/rust/syn-3.0.9/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tempfile",
+    "version": "3.23.0",
+    "registryChecksum": "2d31c77bdf42a745371d260a26ca7163f1e0924b64afa0b688e61b5a9fa02f16",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/Stebalien/tempfile",
+    "files": [
+      "fixtures/licenses/rust/tempfile-3.23.0/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/tempfile-3.23.0/LICENSE-APACHE",
+      "fixtures/licenses/rust/tempfile-3.23.0/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "text-size",
+    "version": "1.1.1",
+    "registryChecksum": "f18aa187839b2bdb1ad2fa35ead8c4c2976b64e4363c386d45ac0f7ee85c9233",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-analyzer/text-size",
+    "files": [
+      "fixtures/licenses/rust/text-size-1.1.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/text-size-1.1.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/text-size-1.1.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "thiserror",
+    "version": "2.0.21",
+    "registryChecksum": "09e52cb86a36cede5cb101bf8908837b3e4c6e5e59fe7fd85c23fb56200d189e",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/thiserror",
+    "files": [
+      "fixtures/licenses/rust/thiserror-2.0.21/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/thiserror-2.0.21/LICENSE-APACHE",
+      "fixtures/licenses/rust/thiserror-2.0.21/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "thiserror-impl",
+    "version": "2.0.21",
+    "registryChecksum": "fe5197923287db20a58125f0bc85c062f7f2c892de97b18c356f9efb14b28524",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/thiserror",
+    "files": [
+      "fixtures/licenses/rust/thiserror-impl-2.0.21/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/thiserror-impl-2.0.21/LICENSE-APACHE",
+      "fixtures/licenses/rust/thiserror-impl-2.0.21/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "tokio",
+    "version": "1.48.0",
+    "registryChecksum": "ff360e02eab121e0bc37a2d3b4d4dc622e6eda3a8e5253d5435ecf5bd4c68408",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "files": [
+      "fixtures/licenses/rust/tokio-1.48.0/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/tokio-1.48.0/LICENSE"
+    ]
+  },
+  {
+    "name": "tokio-macros",
+    "version": "2.6.1",
+    "registryChecksum": "5c55a2eff8b69ce66c84f85e1da1c233edc36ceb85a2058d11b0d6a3c7e7569c",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "files": [
+      "fixtures/licenses/rust/tokio-macros-2.6.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/tokio-macros-2.6.1/LICENSE"
+    ]
+  },
+  {
+    "name": "unicode-ident",
+    "version": "1.0.27",
+    "registryChecksum": "a2c754d6c33795a1c324727428e5a7dedb5b06195f9890bdbcba760d3e246563",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "repository": "https://github.com/dtolnay/unicode-ident",
+    "files": [
+      "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-UNICODE",
+      "fixtures/licenses/rust/unicode-ident-1.0.27/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-APACHE",
+      "fixtures/licenses/rust/unicode-ident-1.0.27/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-width",
+    "version": "0.2.2",
+    "registryChecksum": "b4ac048d71ede7ee76d585517add45da530660ef4390e49b098733c6e897f254",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/unicode-rs/unicode-width",
+    "files": [
+      "fixtures/licenses/rust/unicode-width-0.2.2/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/unicode-width-0.2.2/LICENSE-APACHE",
+      "fixtures/licenses/rust/unicode-width-0.2.2/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "uuid",
+    "version": "1.18.1",
+    "registryChecksum": "2f87b8aa10b915a06587d0dec516c282ff295b475d94abf425d62b57710070a2",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "uuid-rs/uuid",
+    "files": [
+      "fixtures/licenses/rust/uuid-1.18.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/uuid-1.18.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/uuid-1.18.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasip2",
+    "version": "1.0.4+wasi-0.2.12",
+    "registryChecksum": "b67efb37e106e55ce722a510d6b5f9c17f083e5fc79afc2badeb12cc313d9487",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/wasi-rs",
+    "files": [
+      "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-APACHE",
+      "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "fixtures/licenses/rust/wasip2-1.0.4+wasi-0.2.12/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasm-bindgen",
+    "version": "0.2.129",
+    "registryChecksum": "9bb54f33acc68fd454578d9820b0bde1a1a3d17aa17bb7b6595806d02886d409",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+    "files": [
+      "fixtures/licenses/rust/wasm-bindgen-0.2.129/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wasm-bindgen-0.2.129/LICENSE-APACHE",
+      "fixtures/licenses/rust/wasm-bindgen-0.2.129/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasm-bindgen-macro",
+    "version": "0.2.129",
+    "registryChecksum": "2e29d0c35b16e224a7eeb5cd2d25e3e1968fbd65604117b44d3b789d00ee8535",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro",
+    "files": [
+      "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/LICENSE-APACHE",
+      "fixtures/licenses/rust/wasm-bindgen-macro-0.2.129/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasm-bindgen-macro-support",
+    "version": "0.2.129",
+    "registryChecksum": "6f501a8bc3719dba86ef8ae4728879c08001bea749eb1333ac5b91e040e2a6b7",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support",
+    "files": [
+      "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/LICENSE-APACHE",
+      "fixtures/licenses/rust/wasm-bindgen-macro-support-0.2.129/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "wasm-bindgen-shared",
+    "version": "0.2.129",
+    "registryChecksum": "23f0c9c52aa7cd7d77769a4cfe2a9adb1b331f489a41d912ce14513d5ab995c6",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared",
+    "files": [
+      "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/LICENSE-APACHE",
+      "fixtures/licenses/rust/wasm-bindgen-shared-0.2.129/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "windows-link",
+    "version": "0.2.1",
+    "registryChecksum": "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/microsoft/windows-rs",
+    "files": [
+      "fixtures/licenses/rust/windows-link-0.2.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/windows-link-0.2.1/license-apache-2.0",
+      "fixtures/licenses/rust/windows-link-0.2.1/license-mit"
+    ]
+  },
+  {
+    "name": "windows-sys",
+    "version": "0.61.2",
+    "registryChecksum": "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/microsoft/windows-rs",
+    "files": [
+      "fixtures/licenses/rust/windows-sys-0.61.2/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/windows-sys-0.61.2/license-apache-2.0",
+      "fixtures/licenses/rust/windows-sys-0.61.2/license-mit"
+    ]
+  },
+  {
+    "name": "wit-bindgen",
+    "version": "0.57.1",
+    "registryChecksum": "1ebf944e87a7c253233ad6766e082e3cd714b5d03812acc24c318f549614536e",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/wit-bindgen",
+    "files": [
+      "fixtures/licenses/rust/wit-bindgen-0.57.1/published-Cargo.toml.snapshot",
+      "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-APACHE",
+      "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "fixtures/licenses/rust/wit-bindgen-0.57.1/LICENSE-MIT"
+    ]
+  }
+]

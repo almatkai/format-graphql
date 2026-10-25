@@ -1,0 +1,6 @@
+/target/
+/.scratch/
+*.log
+# Immutable fixtures include published dist sources; never inherit V1 dist ignore.
+!/fixtures/**/dist/
+!/fixtures/**/dist/**

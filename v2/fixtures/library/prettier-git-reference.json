@@ -1,0 +1,35 @@
+{
+  "ref": "refs/tags/2.5.1",
+  "node_id": "MDM6UmVmNzUxMDQxMjM6cmVmcy90YWdzLzIuNS4x",
+  "url": "https://api.github.com/repos/prettier/prettier/git/refs/tags/2.5.1",
+  "object": {
+    "sha": "0b562dc3ae09af3045252d53a66ea9cfd609cc36",
+    "type": "tag",
+    "url": "https://api.github.com/repos/prettier/prettier/git/tags/0b562dc3ae09af3045252d53a66ea9cfd609cc36"
+  },
+  "annotatedTag": {
+    "node_id": "TA_kwDOBHn_e9oAKDBiNTYyZGMzYWUwOWFmMzA0NTI1MmQ1M2E2NmVhOWNmZDYwOWNjMzY",
+    "sha": "0b562dc3ae09af3045252d53a66ea9cfd609cc36",
+    "url": "https://api.github.com/repos/prettier/prettier/git/tags/0b562dc3ae09af3045252d53a66ea9cfd609cc36",
+    "tagger": {
+      "name": "sosukesuzuki",
+      "email": "aosukeke@gmail.com",
+      "date": "2021-12-04T14:31:03Z"
+    },
+    "object": {
+      "sha": "56ed71d1c99bdf5253d03df1fa2d2bd0693d8214",
+      "type": "commit",
+      "url": "https://api.github.com/repos/prettier/prettier/git/commits/56ed71d1c99bdf5253d03df1fa2d2bd0693d8214"
+    },
+    "tag": "2.5.1",
+    "message": "Release 2.5.1\n",
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "resolvedCommit": "56ed71d1c99bdf5253d03df1fa2d2bd0693d8214"
+}
