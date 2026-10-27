@@ -1,0 +1,25 @@
+{
+  "source": "b1edb8f7837a148fef50fdf79fcfe917a7aed952",
+  "install": "npm ci --ignore-scripts, original package/lock, disposable v2/.scratch/v1; no legacy peer-dependency flag needed",
+  "nodeResolution": "MODULE_NOT_FOUND for prettier from disposable package require context",
+  "results": [
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "output": "npm notice run format-graphql@0.1.0 test\nnpm notice run node --import tsx --test test/*.test.ts\n\u2714 package.json declares Windows+macOS and Tezbar metadata (1.203542ms)\n\u2139 tests 1\n\u2139 suites 0\n\u2139 pass 1\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 63.423208\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 2,
+      "output": "npm notice run format-graphql@0.1.0 typecheck\nnpm notice run tsc --noEmit\nsrc/index.tsx(3,22): error TS2307: Cannot find module 'prettier' or its corresponding type declarations.\n"
+    }
+  ],
+  "lockSha256": "5165deef28d37ab1c42b07736ef4254b6ec23c363514851f3c1728f4cf43caa9"
+}

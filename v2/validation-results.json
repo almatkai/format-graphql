@@ -1,0 +1,406 @@
+{
+  "recordedAt": "2026-10-25T12:02:08.072164+00:00",
+  "rustStable": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+  "scope": "Automated isolated checks only. Real host/OS/UI verification not-run. Logs are disposable and excluded from archive.",
+  "results": [
+    {
+      "command": [
+        "python3",
+        "scripts/prepare-fixtures.py"
+      ],
+      "exitCode": 0,
+      "seconds": 0.19,
+      "log": ".scratch/validation/00.log"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/prepare-harness.py"
+      ],
+      "exitCode": 0,
+      "seconds": 0.02,
+      "log": ".scratch/validation/01.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/oracle.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.42,
+      "log": ".scratch/validation/02.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/source-oracle.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.29,
+      "log": ".scratch/validation/03.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/representation-gap.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.16,
+      "log": ".scratch/validation/04.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/renderer-tests.cjs"
+      ],
+      "exitCode": 0,
+      "seconds": 1.06,
+      "log": ".scratch/validation/05.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/schema-tests.cjs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.05,
+      "log": ".scratch/validation/06.log"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/verify-evidence.py"
+      ],
+      "exitCode": 0,
+      "seconds": 0.17,
+      "log": ".scratch/validation/07.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "fmt",
+        "--",
+        "--check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.06,
+      "log": ".scratch/validation/08.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline"
+      ],
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": ".scratch/validation/09.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.24,
+      "log": ".scratch/validation/10.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "check",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu"
+      ],
+      "exitCode": 0,
+      "seconds": 0.12,
+      "log": ".scratch/validation/11.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.26,
+      "log": ".scratch/validation/12.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline"
+      ],
+      "exitCode": 0,
+      "seconds": 1.37,
+      "log": ".scratch/validation/13.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.44,
+      "log": ".scratch/validation/14.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "check",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu"
+      ],
+      "exitCode": 0,
+      "seconds": 0.44,
+      "log": ".scratch/validation/15.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.38,
+      "log": ".scratch/validation/16.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "fmt",
+        "--",
+        "--check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.07,
+      "log": ".scratch/validation/17.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "test",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline"
+      ],
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": ".scratch/validation/18.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "clippy",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.21,
+      "log": ".scratch/validation/19.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "check",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu"
+      ],
+      "exitCode": 0,
+      "seconds": 0.1,
+      "log": ".scratch/validation/20.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "clippy",
+        "--manifest-path",
+        "Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.25,
+      "log": ".scratch/validation/21.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "test",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline"
+      ],
+      "exitCode": 0,
+      "seconds": 2.18,
+      "log": ".scratch/validation/22.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "clippy",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.44,
+      "log": ".scratch/validation/23.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "check",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu"
+      ],
+      "exitCode": 0,
+      "seconds": 0.39,
+      "log": ".scratch/validation/24.log"
+    },
+    {
+      "command": [
+        "cargo",
+        "+1.85.0",
+        "clippy",
+        "--manifest-path",
+        ".scratch/host-harness/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnu",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "seconds": 0.38,
+      "log": ".scratch/validation/25.log"
+    },
+    {
+      "command": [
+        "rustfmt",
+        "--check",
+        "--edition",
+        "2021",
+        "--config",
+        "skip_children=true",
+        "adapter/format_graphql.rs",
+        "tests/harness/lib.rs",
+        "tests/harness/runtime.rs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.03,
+      "log": ".scratch/validation/26.log"
+    },
+    {
+      "command": [
+        "rustfmt",
+        "+1.85.0",
+        "--check",
+        "--edition",
+        "2021",
+        "--config",
+        "skip_children=true",
+        "adapter/format_graphql.rs",
+        "tests/harness/lib.rs",
+        "tests/harness/runtime.rs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.02,
+      "log": ".scratch/validation/27.log"
+    }
+  ]
+}

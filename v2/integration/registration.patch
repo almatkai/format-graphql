@@ -1,0 +1,116 @@
+--- a/src-tauri/Cargo.toml
++++ b/src-tauri/Cargo.toml
+@@ -21,6 +21,7 @@
+ semver = "1.0"
+ 
+ [dependencies]
++tezbar-format-graphql = { path = "native-extensions/format-graphql" }
+ serde_json = "1.0"
+ serde = { version = "1.0", features = ["derive"] }
+ semver = "1.0"
+--- a/src-tauri/src/native_core/extensions/mod.rs
++++ b/src-tauri/src/native_core/extensions/mod.rs
+@@ -14,6 +14,8 @@
+ mod v2_port_manager;
+ mod v2_runtime;
+ mod v2_sdk;
++#[path = "../../../native-extensions/format-graphql/adapter/format_graphql.rs"]
++mod v2_format_graphql;
+ mod v2_speedtest;
+ mod v2_timers;
+ 
+--- a/src-tauri/src/native_core/extensions/v2_runtime.rs
++++ b/src-tauri/src/native_core/extensions/v2_runtime.rs
+@@ -8,7 +8,7 @@
+         .or_else(|| id.strip_prefix("raycast."))
+         .unwrap_or(id);
+     match value {
+-        "amphetamine" | "audio-device" | "cleanshotx" | "color-picker" | "gif-search"
++        "format-graphql" | "amphetamine" | "audio-device" | "cleanshotx" | "color-picker" | "gif-search"
+         | "google-calendar" | "google-search" | "port-manager" | "speedtest" | "timers"
+         | "perplexity" => Some(value),
+         _ => None,
+@@ -19,6 +19,7 @@
+ }
+ pub(super) fn commands(slug: &str) -> &'static [&'static str] {
+     match slug {
++        "format-graphql" => super::v2_format_graphql::commands(),
+         "amphetamine" => super::v2_amphetamine::commands(),
+         "audio-device" => super::v2_audio_device::commands(),
+         "cleanshotx" => super::v2_cleanshotx::commands(),
+@@ -45,6 +46,7 @@
+     state: &mut Value,
+ ) -> CoreResult {
+     match slug {
++        "format-graphql" => super::v2_format_graphql::handle(ctx, command, operation, payload, state).await,
+         "amphetamine" => {
+             super::v2_amphetamine::handle(ctx, command, operation, payload, state).await
+         }
+--- a/src-tauri/src/native_core/extensions/v2_catalog.json
++++ b/src-tauri/src/native_core/extensions/v2_catalog.json
+@@ -2589,5 +2589,46 @@
+         "state": "not-run"
+       }
+     ]
++  },
++  {
++    "schemaVersion": 2,
++    "id": "com.tezbar.native.format-graphql",
++    "slug": "format-graphql",
++    "name": "Format GraphQL",
++    "version": "0.1.0",
++    "description": "Formats a GraphQL document. Original extension by tngranados; contributor xmok.",
++    "runtime": "rust",
++    "replaces": [
++      "raycast.format-graphql"
++    ],
++    "icon": "/extensions/icons/format-graphql.png",
++    "platforms": [
++      "macOS",
++      "Windows"
++    ],
++    "commands": [
++      {
++        "name": "index",
++        "title": "Format GraphQL",
++        "description": "Formats a GraphQL document",
++        "runtime": "rust",
++        "platforms": [
++          "macOS",
++          "Windows"
++        ]
++      }
++    ],
++    "verification": [
++      {
++        "platform": "macOS",
++        "state": "not-run",
++        "note": "Host registration, rebuild, installation and real UI/clipboard QA have not run."
++      },
++      {
++        "platform": "Windows",
++        "state": "not-run",
++        "note": "Host registration, rebuild, installation and real UI/clipboard QA have not run."
++      }
++    ]
+   }
+ ]
+--- a/src-tauri/src/native_core/extensions/v2_catalog.rs
++++ b/src-tauri/src/native_core/extensions/v2_catalog.rs
+@@ -175,7 +175,7 @@
+     #[test]
+     fn bundled_ids_and_coverage_are_consistent() {
+         let items = manifests();
+-        assert_eq!(items.len(), 11);
++        assert_eq!(items.len(), 12);
+         for item in items {
+             let slug = item["slug"].as_str().unwrap();
+             assert_eq!(item["id"], v2_runtime::canonical_id(slug));
+--- a/docs/NATIVE_V2_FORMAT.md
++++ b/docs/NATIVE_V2_FORMAT.md
+@@ -11,3 +11,5 @@
+ `scripts/extensions-v2-list.mjs` calls the compiled Rust CLI to list actual compiled coverage and installation state. Set `TEZBAR_NATIVE_CORE_CLI` to a binary path when needed. A missing binary is an error; the script never reports static JSON as working code.
+ 
+ Windows and macOS support are independent of QA. Native V2 command platform declarations describe intended compiled replacements on both platforms, even when the original Raycast manifest was macOS only. Verification remains `not-run` until tested. OS integration commands can still fail with a concrete capability error when an external app or helper is absent.
++
++Format GraphQL is vendored at `src-tauri/native-extensions/format-graphql`, with one compiled `index` handler and the original icon. Its renderer requires guarded Form replacements and complete maps for every submit action. Both platform verification states remain `not-run`.

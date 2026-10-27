@@ -1,0 +1,49 @@
+{
+  "note": "JS accepts isolated UTF-16 surrogates. Rust requires Unicode scalar strings and rejects explicitly.",
+  "rows": [
+    {
+      "input": "{f(a:\"\\uD800\")}",
+      "oracleOutputUtf16": [
+        123,
+        10,
+        32,
+        32,
+        102,
+        40,
+        97,
+        58,
+        32,
+        34,
+        55296,
+        34,
+        41,
+        10,
+        125,
+        10
+      ],
+      "nativeError": "Invalid GraphQL string"
+    },
+    {
+      "input": "{f(a:\"\\uDFFF\")}",
+      "oracleOutputUtf16": [
+        123,
+        10,
+        32,
+        32,
+        102,
+        40,
+        97,
+        58,
+        32,
+        34,
+        57343,
+        34,
+        41,
+        10,
+        125,
+        10
+      ],
+      "nativeError": "Invalid GraphQL string"
+    }
+  ]
+}

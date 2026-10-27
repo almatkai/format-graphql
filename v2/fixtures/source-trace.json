@@ -1,0 +1,396 @@
+[
+  {
+    "runtime": "own locked @raycast/utils 2.3.0 source",
+    "defaults": {
+      "input": null,
+      "indent": null,
+      "indentId": "indent",
+      "storeValue": true
+    },
+    "calls": [
+      [
+        "submit",
+        {
+          "input": "{f(a:1)}",
+          "indent": "4",
+          "extra": "kept",
+          "copy": false
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{f(a:1)}",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 4
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{\n    f(a: 1)\n}\n",
+          "indent": "tab",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{\n    f(a: 1)\n}\n",
+        {
+          "parser": "graphql",
+          "useTabs": true,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "copy",
+        "{\n\tf(a: 1)\n}\n"
+      ],
+      [
+        "hud",
+        "Copied to clipboard"
+      ],
+      [
+        "popToRoot"
+      ],
+      [
+        "submit",
+        {
+          "input": "{broken",
+          "indent": "2",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{broken",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "failure"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Invalid GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{draft invalid",
+          "indent": "8",
+          "copy": false
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{draft invalid",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 8
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "failure"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Invalid GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{a}",
+          "indent": "2",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{a}",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "copy",
+        "{\n  a\n}\n"
+      ]
+    ]
+  },
+  {
+    "runtime": "pinned beta useForm shim",
+    "defaults": {
+      "input": null,
+      "indent": null,
+      "indentId": null,
+      "storeValue": true
+    },
+    "calls": [
+      [
+        "submit",
+        {
+          "input": "{f(a:1)}",
+          "indent": "4",
+          "extra": "kept",
+          "copy": false
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{f(a:1)}",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 4
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{\n    f(a: 1)\n}\n",
+          "indent": "tab",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{\n    f(a: 1)\n}\n",
+        {
+          "parser": "graphql",
+          "useTabs": true,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "copy",
+        "{\n\tf(a: 1)\n}\n"
+      ],
+      [
+        "hud",
+        "Copied to clipboard"
+      ],
+      [
+        "popToRoot"
+      ],
+      [
+        "submit",
+        {
+          "input": "{broken",
+          "indent": "2",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{broken",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "failure"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Invalid GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{draft invalid",
+          "indent": "8",
+          "copy": false
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{draft invalid",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 8
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "failure"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Invalid GraphQL"
+      ],
+      [
+        "submit",
+        {
+          "input": "{a}",
+          "indent": "2",
+          "copy": true
+        }
+      ],
+      [
+        "toast",
+        {
+          "style": "animated",
+          "title": "Formatting"
+        }
+      ],
+      [
+        "format",
+        "{a}",
+        {
+          "parser": "graphql",
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      ],
+      [
+        "toast-update",
+        "style",
+        "success"
+      ],
+      [
+        "toast-update",
+        "title",
+        "Formatted GraphQL"
+      ],
+      [
+        "copy",
+        "{\n  a\n}\n"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+--- a/src/renderer/src/raycast-api/form-runtime.tsx
++++ b/src/renderer/src/raycast-api/form-runtime.tsx
+@@ -22,6 +22,8 @@
+   info?: string
+   error?: string
+   value?: unknown
++  replacementBase?: unknown
++  replacementId?: string
+   options?: Array<{ title: string; value: string }>
+   allowMultipleSelection?: boolean
+   actionId?: string
+@@ -99,6 +101,9 @@
+           info: typeof node.props?.info === 'string' ? node.props.info : undefined,
+           error: typeof node.props?.error === 'string' ? node.props.error : undefined,
+           value: node.props?.value,
++          replacementBase: node.props?.replacementBase,
++          replacementId: typeof node.props?.replacementId === 'string' && node.props.replacementId.length > 0
++            ? node.props.replacementId : undefined,
+           options: options.length > 0 ? options : undefined,
+           allowMultipleSelection: node.props?.allowMultipleSelection === true,
+           actionId: typeof node.props?.actionId === 'string' ? node.props.actionId : undefined,
+@@ -138,10 +143,17 @@
+   )
+ }
+ 
++// IDs are scoped to a stable field key and retained for this mounted Form.
++function replacementKey(field: FormField): string | undefined {
++  return field.value !== undefined && field.replacementBase !== undefined && field.replacementId
++    ? JSON.stringify([field.key, field.replacementId]) : undefined
++}
++
+ export function reconcileFormValues(
+   fields: FormField[],
+   previous?: Record<string, unknown>,
+-  previousFields: FormField[] = []
++  previousFields: FormField[] = [],
++  consumedReplacements: ReadonlySet<string> = new Set()
+ ): Record<string, unknown> {
+   const next: Record<string, unknown> = {}
+   const previousByKey = new Map(previousFields.map((field) => [field.key, field]))
+@@ -150,8 +162,11 @@
+     const previousField = previousByKey.get(field.key)
+     // Submit-only fields keep their draft when a heartbeat repeats defaults.
+     // Controlled fields still accept every server response, including rejection.
++    const key = replacementKey(field)
+     const keepDraft = previousField && (
+-      field.value === undefined || (!field.actionId && sameFormValue(previousField.value, field.value))
++      key !== undefined
++        ? consumedReplacements.has(key) || !sameFormValue(previous?.[field.id], field.replacementBase)
++        : field.value === undefined || (!field.actionId && sameFormValue(previousField.value, field.value))
+     )
+     if (keepDraft && previous && Object.prototype.hasOwnProperty.call(previous, field.id)) {
+       next[field.id] = previous[field.id]
+@@ -229,6 +244,7 @@
+   const localWheelCoordinates = useRef<FormWheelCoordinates | null>(null)
+   const filePickerOpenRef = useRef(false)
+   const previousServerForm = useRef({ title, fields })
++  const consumedReplacements = useRef<ReadonlySet<string>>(new Set())
+ 
+   useEffect(() => {
+     if (nativeColorWheel) {
+@@ -238,8 +254,17 @@
+       ? previousServerForm.current.fields : undefined
+     const wheelDraft = nativeColorWheel ? localWheelCoordinates.current : null
+     previousServerForm.current = { title, fields }
++    // Consume first observations, including rejected results, outside the state
++    // updater. Its immutable snapshot makes repeated React updater calls pure.
++    const observed = consumedReplacements.current
++    const nextObserved = new Set(observed)
++    for (const field of fields) {
++      const key = replacementKey(field)
++      if (key !== undefined) nextObserved.add(key)
++    }
++    consumedReplacements.current = nextObserved
+     setValues((previous) => ({
+-      ...reconcileFormValues(fields, previousFields ? previous : undefined, previousFields),
++      ...reconcileFormValues(fields, previousFields ? previous : undefined, previousFields, observed),
+       ...wheelDraft,
+     }))
+   }, [fields, nativeColorWheel, title])
+--- a/src/renderer/src/raycast-api/index.tsx
++++ b/src/renderer/src/raycast-api/index.tsx
+@@ -206,8 +206,8 @@
+               onExecute={(action) => {
+                 setShowActions(false)
+                 setActionFilterIds(null)
+-                if (kind === 'form' && action.id === submitAction?.id) {
+-                  onSubmitForm(formRuntimeRef.current?.getValues() ?? {})
++                if (kind === 'form' && (action.kind === 'submit-form' || action.id === submitAction?.id)) {
++                  void onInvokeAction(action.id, formRuntimeRef.current?.getValues() ?? {})
+                   return
+                 }
+                 void onInvokeAction(action.id)
